@@ -61,12 +61,12 @@
 			var headHeight=$(".header").height()+10;
 			var nav=$(".nav");
 			$(window).scroll(function(){
-			if($(this).scrollTop()>headHeight){
-			nav.addClass("navFix");
-			}
-			else{
-			nav.removeClass("navFix");
-			}
+				if($(this).scrollTop()>headHeight){
+					nav.addClass("navFix");
+				}
+				else{
+					nav.removeClass("navFix");
+				}
 			})
 		}) 
 	</script>
