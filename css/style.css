@@ -22,7 +22,7 @@ body{ line-height: 1;}
 
 /* left right button 
 ========================================================================== */
-.viewArrows{display:block;width:50px;height:50px;line-height:50px;cursor:pointer;text-indent:-99999999px;position:absolute;top:269px;}
+.viewArrows{display:block;width:50px;height:50px;line-height:50px;cursor:pointer; font-size: 0; position:absolute;top:269px;}
 .prev{left:200px;background:url(../images/prev.png) center center no-repeat;}
 .next{right:200px;background:url(../images/next.png) center center no-repeat;}
 
