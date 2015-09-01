@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>溯源</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<link href="css/reset.css" rel="stylesheet"> 
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrap">
+		<div id="test2" class="trigger">Trigger</div>
+		<div class="result"></div>
+		<div style="display:none; width:400px; height:400px;" class="log">1233456777</div>
+		<div id="tong" style="padding:20px;">
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+			<p>自定义内容</p>
+		</div>			
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/layer-v1.9.3/layer/layer.js"></script>
+	<script type="text/javascript">
+	$('#test2').on('click', function(){
+    layer.open({
+        type: 1,
+        title:false,
+        area: ['600px', '900px'],
+        shadeClose: true, //点击遮罩关闭
+        content: $('#tong')
+    });
+});
+	</script>
+</body>
+</html>
