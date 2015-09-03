@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>欧洲</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--#include file="inc/common.shtml"--> 
+</head>
+<body>
+	<div class="wrap wrap-grey">
+		<div class="header" style="height:0;"></div>
+		<!-- top -->
+		<!--#include file="inc/nav.shtml"-->
+
+		<div class="head-img"><!-- 可更换背景图片 -->
+			<div class="theme-font">
+				<span>欧洲</span>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="inner-module">
+				将规范和规范化
+			</div>
+		</div>
+
+		<!--#include file="inc/footer.shtml"-->
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script><!-- 轮播图 -->
+	<script type="text/javascript" src="js/jquery.touchSlider.js"></script><!-- 轮播图 -->
+	<script type="text/javascript" src="js/banner.js"></script><!-- 轮播图 -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			//固定顶部导航
+			var headHeight=$(".header").height();
+			var nav=$(".nav");
+			$(window).scroll(function(){
+				if($(this).scrollTop()>headHeight){
+					nav.addClass("navFix");
+				}
+				else{
+					nav.removeClass("navFix");
+				}
+			});
+
+
+
+			//下拉框
+			
+			$(".user-center ul").hide();
+			$('.logged-on').mouseover(function(){
+				$(".user-center ul").show();
+			});
+			$('.logged-on').mouseout(function(){
+				$(".user-center ul").hide();
+			});
+		}) 
+	</script>
+</body>
+</html>

@@ -1,11 +1,11 @@
 @charset "utf-8";
 body{ line-height: 1;}
 .inner-module{ width: 1000px; margin: 0 auto;}
-
+.wrap-grey{ background-color: #f0f0f0;}
 
 /* nav
 ========================================================================== */
-.nav{ height: 56px; width: 100%; padding-top: 42px; border-bottom: 1px solid #c8c8c8;}
+.nav{ height: 56px; width: 100%; padding-top: 42px; border-bottom: 1px solid #c8c8c8; background-color: #fff;}
 .nav .logo,
 .nav .login{ padding:0 10px; line-height:37px;}
 .nav li a{ text-decoration:none;}
@@ -109,6 +109,53 @@ div.flicking_con a.on{background-position:0 -21px}
 .theme-title{ position: absolute; bottom: 20px; left: 0; font-size: 22px; color: #fff; padding: 0 20px;}
 .theme-content a{ color: #fff;}
 
+/* ouzhou
+========================================================================== */
+.head-img,
+.head-details{ height: 400px; width: 100%; padding-bottom: 40px; position: relative;}
+
+.head-img{ background: transparent url('../images/ouzhou.jpg') no-repeat center top;}
+.head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
+
+.theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}
+.theme-font span{ background: transparent url('../images/dotted.png') no-repeat 0 -91px; padding-left: 62px;}
+
+/* details
+========================================================================== */
+.details-banner{ position: relative;}
+.details-banner .head-img,
+.details-banner .head-details{ padding-bottom: 0;}
+.details-title{ position: absolute; left: 0; bottom: 15px; width: 100%;}
+.details-title h1{ width: 850px; padding-left: 150px; margin: 0 auto; font-size: 28px;}
+.details-title h1 a{ color: #fff;}
+.details-mark{ background-color: #fff; border-bottom: 1px solid #e8e8e8;}
+.mark-left{ width: 490px; padding-left: 150px; float: left; position: relative;}
+.mark-right{ width: 360px; float: right;}
+.mark-left .face-img{ display: block; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; position: absolute; bottom: 12px; left: 0;}
+.mark-left .face-img img{ width: 100%; height: 100%; border-radius: 50%;}
+.details-banner .navFix { width: 100%;}
+.navFix .mark-left .face-img{ display: block; width: 50px; height: 50px; position: absolute; bottom: 5px; left: 35px;}
+
+.mark-left p span{ float: left; display: block; font-size: 16px; color: #505050; padding: 24px  50px 24px 0;}
+.mark-left p .detail-time{ background: url('../images/dotted.png') no-repeat 0 -191px; padding-left: 30px;}
+.mark-left p .glance{ padding-right: 0; background: url('../images/dotted.png') no-repeat 0 -270px; padding-left: 30px;}
+.mark-right a{ display: block; float: left; width: 60px; border-left: 1px solid #f3f3f3; padding: 24px 0 24px 52px; font-size: 20px; color: #505050;}
+.mark-right a:hover{ color: #505050;}
+.mark-right .share{ border-right: 1px solid #f3f3f3; background: url('../images/dotted.png') no-repeat 18px -522px;}
+.mark-right .target-addr{  background: url('../images/dotted.png') no-repeat 18px -350px; width: 80px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
+.mark-right .like{  background: url('../images/dotted.png') no-repeat 18px -436px;}
+
+.details-left-bar{ float: left; width: 720px;}
+.details-right-bar{ float: right; width: 170px;}
+.details-left-bar h2{ font-size: 20px; font-weight: normal; color: #0a6cff; padding: 20px 0; margin-bottom: 15px; border-bottom: 1px solid #c8c8c8;}
+.details-left-bar .travel-line{ font-size: 18px; color: #0a6cff; padding-bottom: 40px; border-bottom: 1px solid #c8c8c8;}
+.details-left-bar p{ font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 40px;}
+.details-left-bar p img{ max-width: 100%; *width: 100%; display: block; margin: 0 auto 20px;}
+.travel-record{ border-bottom: 1px solid #c8c8c8;}
+
+
+/* theme-activities
+========================================================================== */
 .footer { font-size: 14px; color: #505050; text-align: right;}
-.footer .inner-module{ background-color: #f0f0f0; height: 80px; line-height: 80px;}
+.footer .inner-module{ background-color: #f0f0f0; height: 80px; line-height: 80px; border-top: 1px solid #c8c8c8;}
 .footer .inner-module p{ padding: 0 20px;}
