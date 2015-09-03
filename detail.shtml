@@ -48,13 +48,13 @@
 					<div class="details-left-bar">
 						<div class="block-module">
 							<h2>游记路线：</h2>
-							<div class="travel-line">
+							<div class="travel-line" id="line">
 								上海 — 巴黎 — 巴黎歌剧院 — 香榭丽舍大道 — 埃菲尔铁塔 — 巴士底 — 巴黎圣母院 — 尼斯 — 北京
 							</div>
 						</div>
 						<div class="block-module">
 							<h2>游记记录：</h2>
-							<div class="travel-record">
+							<div class="travel-record" id="record-t">
 								<p>
 									从小每去一个地方之前一定要看数篇游记，自己写还是头一回。早就和男票商量好去欧洲的事，有些许期待，紧张和小兴奋。忙过惨绝人寰的大四上学期，结束了大学最后的考试，结束了美研申请，结束了事务所实习，好像一切的一切都只为腾出这美好的几个月，来实现这次大计划。
 								</p>
@@ -72,16 +72,29 @@
 						</div>
 						<div class="block-module">
 							<h2>旅程总结：</h2>
-							<div>
+							<div id="summary-t">
 								<p>
-									能看到这的果然都是真爱！！谢谢你们能耐心的看完。这次欧洲之行大概是我人生中最最开心最最难忘的一段经历了。世界这么大，每一处地方都要自己用心去体验才会有不一般的感受，只有自己不断的去做功课，diy路线行程，才能脑补自己对每一个地方的了解。虽然过程繁琐，有时候会很累，但是美景带来的快乐是用钱都买不到的。
-最后，希望每个驴友都能在对的时间遇到对的人，你带着TA，TA带着钱，任性的走遍全世界～
+									能看到这的果然都是真爱！！谢谢你们能耐心的看完。这次欧洲之行大概是我人生中最最开心最最难忘的一段经历了。世界这么大，每一处地方都要自己用心去体验才会有不一般的感受，只有自己不断的去做功课，diy路线行程，才能脑补自己对每一个地方的了解。虽然过程繁琐，有时候会很累，但是美景带来的快乐是用钱都买不到的。最后，希望每个驴友都能在对的时间遇到对的人，你带着TA，TA带着钱，任性的走遍全世界～
 								</p>
 							</div>
 						</div>
-						<div class="block-module"></div>
 					</div>
-					<div class="details-right-bar">right</div>
+					<div class="details-right-bar">
+						<div class="right-nav">
+							<h4>游记目录</h4>
+							<ul>
+								<li class="right1">
+									<a class="#current" href="line-t">游记路线</a>
+								</li>
+								<li class="right2">
+									<a href="#record-t">旅程记录</a>
+								</li>
+								<li class="right3">
+									<a href="#summary-t">旅程总结</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -108,7 +121,16 @@
 				}
 			});
 
-
+			var headHeight2=$(".details-mark").height();
+			var nav2=$(".right-nav");
+			$(window).scroll(function(){
+				if($(this).scrollTop()>headHeight){
+					nav2.addClass("navFix");
+				}
+				else{
+					nav2.removeClass("navFix");
+				}
+			});
 
 			//下拉框
 			

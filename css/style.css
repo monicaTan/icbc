@@ -152,7 +152,23 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-left-bar p{ font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 40px;}
 .details-left-bar p img{ max-width: 100%; *width: 100%; display: block; margin: 0 auto 20px;}
 .travel-record{ border-bottom: 1px solid #c8c8c8;}
+.right-nav { padding-top: 20px;}
+.right-nav h4{ font-size: 20px;}
+.right-nav h4,
+.right-nav a{ display: block; width: 106px; padding-left: 64px; height: 58px; color: #969696; line-height: 58px;}
+.right-nav a{ font-size: 16px; background: url('../images/dotted.png') no-repeat 0 -746px;}
+.right-nav .current,
+.right-nav a:hover{ color: #217aff; background-position: 0 -636px;}
 
+.right-nav .right2 a{ background-position: 0 -967px;}
+.right-nav .right2 .current,
+.right-nav .right2 a:hover{ background-position: 0 -856px;}
+
+.right-nav .right3 a{ background-position: 0 -1189px;}
+.right-nav .right3 .current,
+.right-nav .right3 a:hover{ background-position: 0 -1078px;}
+
+.details-right-bar .navFix{ left: 50%; margin-left:330px; top: 68px; background-color: #f0f0f0;}
 
 /* theme-activities
 ========================================================================== */
