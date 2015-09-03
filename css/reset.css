@@ -30,6 +30,9 @@ a {
   outline: none;
   -webkit-tap-highlight-color: transparent; 
 }
+a:hover{
+  color: #e50011;
+}
 a:active {
     outline: 0; 
 }
