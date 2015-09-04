@@ -39,7 +39,7 @@
 
 							<!-- 未登录状态 -->
 							<span class="user-link">
-								<a href="#">注册</a>
+								<a href="register.shtml">注册</a>
 								<span>|</span>
 								<a href="login.shtml">登录</a>
 							</span>
