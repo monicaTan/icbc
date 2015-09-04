@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html class="full">
 <head>
-	<title>找回密码</title>
+	<title>登录</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<!--#include file="inc/common.shtml"--> 
 </head>
 <body>
-	<div class="bg-page find-password">
+	<div class="bg-page login-bg">
 		<div class="form-container">
 			<div class="form-content">
 				<form>
-					<h3>找回密码</h3>
+					<h3>登录即可上传游记，赢大奖！</h3>
 					<div>
 						<div class="form-group">
-							<input type="text" value="您的邮箱" />
-							<p class="error">请输入正确的邮箱格式</p>
+							<input type="text" placeholder="您的邮箱/手机号" />
+							<!-- <p class="error">请输入正确的邮箱格式</p> -->
 						</div>
 						<div class="form-group">
-							<input class="btn Immediately" type="submit" value="立即找回" />
+							<input type="password" placeholder="您的密码" />
 						</div>
-						<p class="small-notice">
-							<span>记得密码？</span>
-							<a href="#">马上登录</a>
+						<p class="small-notice clearfix">
+							<a class="right" href="forgot-password.shtml">忘记密码</a>
+						</p>
+						<div class="form-group">
+							<input class="btn btn-mar" type="submit" value="立即登录" />
+						</div>
+						<p class="small-notice small-notice2 clearfix">
+							<span>还没有注册？</span>
+							<a href="register.shtml">马上注册</a>
+							<a class="back" href="index.shtml">返回首页</a>
 						</p>
 					</div>
 				</form>
@@ -31,11 +38,7 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			//var fullHeight = $(document).height();
-			//$('.bg-page').css({'height':fullHeight});
-		}) 
-	</script>
+	<script type="text/javascript" src="js/placeholder.js"></script>
+
 </body>
 </html>

@@ -15,7 +15,7 @@
 			<div class="head-details"><!-- 可更换背景图片 -->
 				<div class="details-title">
 					<h1>
-						<a href="#">法国巴黎 24小时 | 咖啡 生活 美食</a>
+						<a href="javascript:;">法国巴黎 24小时 | 咖啡 生活 美食</a>
 					</h1>
 				</div>
 			</div>
@@ -23,7 +23,7 @@
 				<div class="inner-module clearfix">
 					<div class="mark-left">
 						<div class="mark-left-inner">
-							<a class="face-img" href="#">
+							<a class="face-img" href="javascript:;">
 								<img src="images/face.jpg" height="120" width="120">
 							</a>
 							<p class="clearfix">
@@ -36,8 +36,8 @@
 					<div class="mark-right">
 						<div class="clearfix">
 							<a class="target-addr" href="javascript:;">欧洲</a>
-							<a class="like" href="#">喜欢</a>
-							<a class="share" href="#">分享</a>
+							<a class="like" href="javascript:;">喜欢</a>
+							<a class="share" href="javascript:;">分享</a>
 						</div>
 					</div>
 				</div>

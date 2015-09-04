@@ -2,6 +2,7 @@
 body{ line-height: 1;}
 .inner-module{ width: 1000px; margin: 0 auto;}
 .wrap-grey{ background-color: #f0f0f0;}
+.right{ float: right;}
 
 /* nav
 ========================================================================== */
@@ -9,11 +10,11 @@ body{ line-height: 1;}
 .nav .logo,
 .nav .login{ padding:0 10px; line-height:37px;}
 .nav li a{ text-decoration:none;}
-.nav li a:hover{ color:#e50011;}
+.nav li a:hover{ color:#c7000b;}
 .nav ul{ list-style:none;}
 .navFix{background-color: #fff; position:fixed; left:0; top:0; _position:absolute; top:expression((offsetParent.scrollTop)+0); z-index:2;}
 .logo{ width: 300px; font-size: 0; float: left;}
-.login{ float: right; text-align: right; font-size: 0;}
+.login{ float: right; text-align: right; font-size: 0; width: 600px;}
 .login .user-link a,
 .login .user-link span{font-size: 20px; color: #777878; float: right;}
 .login .user-link span{padding: 0 20px;}
@@ -22,12 +23,12 @@ body{ line-height: 1;}
 .user-img{ position: relative; width: 44px; height: 44px; margin-right: 15px; float: left;}
 .user-img .mask{ position: absolute; left: 0; top: 0; z-index: 10;}
 .user-center{ float: left; line-height: 44px; position: relative; z-index: 10; padding-right: 30px;}
-.icon-down{ width:0; height:0; border-width:6px 6px 0; border-style:solid; border-color:#e50011 #fff #fff; position:relative; display: block; position: absolute; right: 0; top: 50%; margin-top: -6px;}
+.icon-down{ width:0; height:0; border-width:6px 6px 0; border-style:solid; border-color:#c7000b #fff #fff; position:relative; display: block; position: absolute; right: 0; top: 50%; margin-top: -6px;}
 .user-center ul{ position: absolute; top: 44px; *top: 42px; right: 0; line-height: 0; width: 145px; padding-top: 12px; *padding-top: 14px; display: none;}
 .user-center ul li{ width: 100%; font-size: 0; overflow: hidden; text-align: left;  border:1px solid #c8c8c8; border-bottom-color: #f3f3f3; border-top: 0;}
 .user-center ul .exit{ border-bottom:1px solid #c8c8c8;}
 .user-center ul li a{display: block; font-size: 14px; color: #505050; height: 38px; line-height: 38px; padding: 0 8px 0 55px; background: #fff url('../images/icon.png') 18px 6px no-repeat;}
-.user-center ul li a:hover{ background-color: #e50011; color: #fff;}
+.user-center ul li a:hover{ background-color: #c7000b; color: #fff;}
 
 .user-name{ font-size: 16px; color: #505050;}
 .user-center ul .write a:hover{ background-position: 18px -78px;}
@@ -69,7 +70,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .title .more{ font-size: 16px; font-weight: normal; color: #969696; padding-left: 24px; margin: 0 0 0 60px; line-height: 28px; background: url('../images/right.png') no-repeat 0 center;}
 .title span,
 .title .more{display: block; float: left;}
-.title a:hover{color: #e50011;}
+.title a:hover{color: #c7000b;}
 .hot-address{ font-size: 0; margin-left: -20px;}
 .hot-address li{ float: left; margin: -20px 0 0 20px; width: 320px;}
 .hot-address li a{ display: block; margin-top: 20px;}
@@ -84,18 +85,18 @@ div.flicking_con a.on{background-position:0 -21px}
 .list-content li .img-content { display: block; font-size: 0; line-height: 0; float: left; width: 210px; height: 126px;}
 .list-content li img {width: 100%; height: 100%;}
 .list-description{ width: 430px; float: right;}
-.list-description h3 a{ font-size: 20px; font-weight: normal; color: #146cff; display: block; width: 100%; height: 22px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
-.list-description .summary{ font-size: 14px; color: #505050; line-height: 22px; text-align: justify; height: 66px; overflow: hidden; margin: 15px 0 10px;}
+.list-description h3 a{ font-size: 20px; font-weight: normal; color: #146cff; display: block; width: 100%; height: 30px; line-height: 30px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
+.list-description .summary{ font-size: 14px; color: #505050; line-height: 22px; text-align: justify; height: 66px; overflow: hidden; margin: 10px 0 10px;}
 .list-description .small-text{ font-size: 12px; color: #969696;}
-.list-description .small-text span{ display: block; float: left; width: 92px; padding-right: 20px; height: 18px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
-.list-description .small-text .icon-heart{ padding: 0 20px 0 20px; width: 72px; background: url('../images/heart.png') no-repeat left center; color: #e50011;}
+.list-description .small-text span{ display: block; float: left; width: 92px; padding-right: 20px; height: 24px; line-height: 24px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
+.list-description .small-text .icon-heart{ padding: 0 20px 0 20px; width: 72px; background: url('../images/heart.png') no-repeat left center; color: #c7000b;}
 .list-description .small-text .from{ padding-right: 0;}
 
 
 /* right-bar
 ========================================================================== */
 .active-rule{ padding: 20px; background-color: #f0f0f0;}
-.active-rule h4{ font-size: 20px; font-weight: normal; color: #e50011; margin-bottom: 5px;}
+.active-rule h4{ font-size: 20px; font-weight: normal; color: #c7000b; margin-bottom: 5px;}
 .active-rule p{ font-size: 14px; line-height: 25px; color: #505050; text-align: justify;}
 .rule-time{ margin-bottom: 20px;}
 .right-bar .bottom-line{ margin: 25px 0;}
@@ -132,8 +133,8 @@ div.flicking_con a.on{background-position:0 -21px}
 .mark-left{ width: 540px; float: left;}
 .mark-left-inner{ position: relative; padding-left: 150px; width: 490px;}
 .mark-right{ width: 360px; float: right;}
-.mark-left .face-img{ display: block; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; position: absolute; bottom: 12px; left: 0;}
-.mark-left .face-img img{ width: 100%; height: 100%; border-radius: 50%;}
+.mark-left .face-img{ display: block; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; position: absolute; bottom: 12px; left: 0; border: 1px solid #eee;}
+.mark-left .face-img img{ width: 100%; height: 100%;}
 .details-banner .navFix { width: 100%;}
 .navFix .mark-left .face-img{ display: block; width: 50px; height: 50px; position: absolute; bottom: 5px; left: 35px;}
 
@@ -150,7 +151,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-left-bar{ float: left; width: 720px; padding-top: 20px;}
 .details-right-bar{ float: right; width: 170px;}
 .details-left-bar h2{ font-size: 20px; font-weight: normal; color: #0a6cff; padding: 20px 0; margin-bottom: 15px; border-bottom: 1px solid #c8c8c8; position: relative;}
-.details-left-bar .travel-line{ font-size: 18px; color: #0a6cff; padding-bottom: 40px; border-bottom: 1px solid #c8c8c8;}
+.details-left-bar .travel-line{ font-size: 18px; color: #0a6cff; padding-bottom: 40px; border-bottom: 1px solid #c8c8c8; line-height: 30px;}
 .details-left-bar p{ font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 40px;}
 .details-left-bar p img{ max-width: 100%; *width: 100%; display: block; margin: 0 auto 20px;}
 .travel-record{ border-bottom: 1px solid #c8c8c8;}
@@ -185,21 +186,89 @@ div.flicking_con a.on{background-position:0 -21px}
 .full,
 .full body,
 .bg-page{height: 100%; width: 100%;}
-.find-password{ background: url('../images/bg1.jpg') repeat-y center top; background-size: auto 100%;}
+.find-password{ background: url('../images/bg1.jpg') no-repeat center top; background-size: auto 100%;}
+.register-bg{ background: url('../images/bg2.jpg') no-repeat center top; background-size: auto 100%;}
+.login-bg{ background: url('../images/bg3.jpg') no-repeat center top; background-size: auto 100%;}
 .form-container{ width: 500px; margin: 0 auto; padding-top: 80px;}
 .form-content{ background-color: #fff; padding: 20px 50px 15px;}
 .form-content h3{ font-size: 16px; color: #505050; padding-bottom: 5px;}
 .form-group { padding-top: 15px;}
 .form-group input{ width: 380px; padding: 12px 10px; *padding: 10px 10px; line-height: 1; border: 1px solid #ededed; background-color: #fff; font-size: 14px; color: #c8c8c8;}
-.form-group .btn{ background-color: #c7000b; border:0; width: 100%; color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 16px;}
+.form-group .btn{ cursor: pointer; background-color: #c7000b; border:0; width: 100%; color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 16px;}
 .form-group .btn-mar{  margin-top: 20px;}
 .small-notice{ text-align: center; margin-top: 15px; color: #787878;}
 .small-notice a{ color: #c7000b;}
+
 .small-notice2 a,
 .small-notice2 span{  float: left;}
-.small-notice2 .back{ float: right;}
+.small-notice2 .back{ float: right; color: #787878;}
 .Immediately{ margin-top: 60px;}
 .error { color: #c7000b; font-size: 14px; text-align: right; margin-top: 5px;}
+.icon-email {display: block; margin: 15px auto 20px; width: 60px; height: 30px; background: url('../images/dotted.png') no-repeat left -1370px;}
+.text-notice{ text-align: justify; color: #787878; line-height: 25px; padding-bottom: 10px;}
+
+
+/* my-profile
+========================================================================== */
+.head-profile{ text-align: center; height: 285px; width: 100%; padding-top: 115px; background: url('../images/bg4.jpg') no-repeat center top; background-size: auto 100%;}
+.head-profile .profile-img{ display: block; width: 148px; height: 148px; overflow: hidden; margin: 0 auto 20px; border: 1px solid #eee; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;}
+.head-profile p{ font-size: 28px; color: #fff; margin-bottom: 20px;}
+.head-profile p a{ font-size: 16px; color: #fff; display: block; width: 128px; height: 32px; line-height: 32px; border:1px solid #fff; border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; margin: 0 auto;}
+.form-row{ margin-bottom: 20px;}
+.form-row label{ width: 240px; line-height: 54px; font-size: 24px; float: left; text-align: right;}
+.form-row label em{ font-style: normal; color: #c7000b; font-size: 24px; vertical-align: middle; margin-right: 20px; line-height: 1;}
+.form-row input{ float: left; width: 615px; padding: 9px 10px; *padding: 10px 10px; border: 1px solid #ededed; background-color: #fff; font-size: 25px; color: #505050;}
+.form-title{ color: #505050; font-size: 28px; font-weight: normal; margin: 40px 0;}
+.form-row .btn-save{ width: 156px; background-color: #c7000b; color: #fff; margin: 40px 0 80px 721px; padding: 8px 0; border:0;}
+
+
+/* my-travel
+========================================================================== */
+#title{width:300px; margin:3% auto 0;}
+#title h2{font-size:18px;}
+#wrapper{width:980px; margin:0 auto; background:#f8f8f8; border:1px solid #a3a3a3; padding:20px 20px 50px; border-radius:5px; -moz-border-radius:5px;}
+/* box */
+.box{width:100%; margin:10px auto 60px; background:#fff;}
+.tab_menu{overflow:hidden; margin: 40px 0;}
+.tab_menu li{ float:left; height:30px; padding: 0 45px; font-size: 28px; line-height:30px; color:#505050; text-align:center; cursor:pointer;}
+.tab_menu li.current{color:#c7000b;}
+.tab_menu .line-right{ border-right: 1px solid #505050;}
+.tab_box .hide{display:none;}
+.tab_box .list-content li .img-content { width: 355px; height: 240px;}
+
+.tab_box .list-description{ width: 625px;}
+.tab_box .list-description h3 a{ margin-top: 10px;}
+.tab_box .list-description h3 .title-limit{ width: 370px; float: left;}
+
+.tab_box .list-description h3 span{ display: block; width: 250px; float: right; margin-top: 10px;}
+.tab_box .list-description h3 span a{ font-size: 16px; width: 64px; height: 30px; line-height: 30px; margin: 0; padding-left: 35px; float: left; background: url('../images/dotted.png') no-repeat 0 -1559px;}
+.tab_box .list-description h3 span .remove{ background-position: 0 -1770px; color: #c7000b;}
+
+.tab_box .list-description h3 span .edit{ padding-right: 20px;}}
+.tab_box  .list-description .small-text span{ width: 95px; height: 24px; line-height: 24px;}
+.tab_box  .list-description .small-text .icon-heart{ width: 100px; line-height: 24px;}
+
+.tab_box  .list-description .small-text .icon-pepole,
+.tab_box  .list-description .small-text .icon-time{ padding: 0 20px 0 30px; width: 145px;}
+
+.tab_box  .list-description .small-text .icon-pepole{ background: url('../images/icon_05.png') no-repeat left center;}
+.tab_box  .list-description .small-text .icon-time{ background: url('../images/icon_03.png') no-repeat left center;}
+.tab_box  .list-description .small-text .icon-time2{ padding-right: 0; width: 200px;}
+.tab_box  .list-description .summary{ margin: 20px 0 40px; line-height: 30px; height: 90px;}
+.tab_box .tab-inner{ min-height: 400px; *height: 400px;}
+
+
+/* status
+========================================================================== */
+
+.status-success{ height: 500px; min-height: 500px;}
+.status-success p{ text-align: center;}
+.status-success .status-img{ color: #36cd64; font-size: 28px; padding-top: 150px;}
+.status-success .back-link { font-size: 20px; padding-top: 15px;}
+.status-success .back-link a{ color: #505050; text-decoration: underline;}
+
+.status-success .back-link span,
+.status-success .back-link span a{ color: #969696;}
 
 
 /* theme-activities

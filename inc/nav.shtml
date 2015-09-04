@@ -16,21 +16,21 @@
 										<img class="mask" src="images/circle.png">
 									</div>
 									<div class="user-center">
-										<a class="user-name" href="#">Rabbit
+										<a class="user-name" href="javascript:;">Rabbit
 											<i class="icon-down"></i>
 										</a>
 										<ul>
 											<li class="write active">
-												<a href="#">编写游记</a>
+												<a href="javascript:;">编写游记</a>
 											</li>
 											<li class="my-travels">
-												<a href="#">我的游记</a>
+												<a href="youji-caogao.shtml">我的游记</a>
 											</li>
 											<li class="my-profile">
-												<a href="#">我的资料</a>
+												<a href="my-profile.shtml">我的资料</a>
 											</li>
 											<li class="exit">
-												<a href="#">退出账号</a>
+												<a href="javascript:;">退出账号</a>
 											</li>
 										</ul>
 									</div>
