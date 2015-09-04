@@ -130,8 +130,8 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-title h1{ width: 850px; padding-left: 150px; margin: 0 auto; font-size: 28px;}
 .details-title h1 a{ color: #fff;}
 .details-mark{ background-color: #fff; border-bottom: 1px solid #e8e8e8; *position: relative; *z-index: 2;}
-.mark-left{ width: 540px; float: left;}
-.mark-left-inner{ position: relative; padding-left: 150px; width: 490px;}
+.mark-left{ width: 630px; float: left;}
+.mark-left-inner{ position: relative; padding-left: 150px; width: 460px;}
 .mark-right{ width: 360px; float: right;}
 .mark-left .face-img{ display: block; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; position: absolute; bottom: 12px; left: 0; border: 1px solid #eee;}
 .mark-left .face-img img{ width: 100%; height: 100%;}
@@ -139,12 +139,12 @@ div.flicking_con a.on{background-position:0 -21px}
 .navFix .mark-left .face-img{ display: block; width: 50px; height: 50px; position: absolute; bottom: 5px; left: 35px;}
 
 .mark-left p span{ float: left; display: block; font-size: 16px; color: #505050; padding: 24px  50px 24px 0;}
-.mark-left p .detail-time{ background: url('../images/dotted.png') no-repeat 0 -191px; padding-left: 30px;}
-.mark-left p .glance{ padding-right: 0; background: url('../images/dotted.png') no-repeat 0 -270px; padding-left: 30px;}
+.mark-left p .detail-time{ background: url('../images/dotted.png') no-repeat 0 -188px; padding-left: 30px;}
+.mark-left p .glance{ padding-right: 0; background: url('../images/dotted.png') no-repeat 0 -268px; padding-left: 30px;}
 .mark-right a{ display: block; float: left; width: 60px; border-left: 1px solid #f3f3f3; padding: 24px 0 24px 52px; font-size: 20px; color: #505050;}
 .mark-right a:hover{ color: #505050;}
 .mark-right .share{ border-right: 1px solid #f3f3f3; background: url('../images/dotted.png') no-repeat 18px -522px;}
-.mark-right .target-addr{  background: url('../images/dotted.png') no-repeat 18px -350px; width: 80px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
+.mark-right .target-addr{  background: url('../images/dotted.png') no-repeat 18px -350px; width: 78px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
 .mark-right .like{  background: url('../images/dotted.png') no-repeat 18px -436px;}
 
 .details-container{ position: relative; z-index: 1;}
@@ -156,11 +156,13 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-left-bar p img{ max-width: 100%; *width: 100%; display: block; margin: 0 0 20px;}
 .travel-record{ border-bottom: 1px solid #c8c8c8;}
 .right-nav { padding-top: 40px; *width: 0px;}
-.right-nav ul{ width: 1px; height: 200px; background-color: #dcdcdc; margin-left: 15px;}
-.right-nav ul li{ margin-left: -15px;}
+.right-nav ul{ width: 1px; height: 200px; background-color: #dcdcdc; margin-left: 0;}
+.right-nav ul li{ margin-left: -15px; width: 100px; background: url('../images/line2.png') no-repeat 64px bottom;}
+.right-nav ul .right3{ background-image: none;}
+
 .right-nav h4,
 .right-nav a{ display: block; width: 106px; padding-left: 64px; height: 58px; color: #969696; line-height: 58px;}
-.right-nav h4{ font-size: 20px; line-height: 1; height: auto; padding-bottom: 20px;}
+.right-nav h4{ font-size: 20px; line-height: 1; height: auto; padding-bottom: 50px;}
 .right-nav a{ font-size: 16px; background: url('../images/dotted.png') no-repeat 0 -746px;}
 .right-nav .current,
 .right-nav a:hover{ color: #217aff; background-position: 0 -636px;}
@@ -270,6 +272,48 @@ div.flicking_con a.on{background-position:0 -21px}
 .status-success .back-link span,
 .status-success .back-link span a{ color: #969696;}
 
+/* edit
+========================================================================== */
+.edit-box{ font-size: 20px;}
+.edit-box i,
+.edit-box span,
+.edit-box .edit-content2,
+.edit-box .edit-content{ display: block; float: left;}
+
+.edit-box i,
+.edit-content-inner em,
+.edit-box span{ height: 52px; line-height: 52px;}
+
+.edit-box ul li{ margin-bottom: 50px;}
+
+.edit-box span{padding-left: 10px; width: 120px;}
+.edit-box .edit-content2{ padding-left: 34px; width: 782px;}
+.edit-box .edit-content{ width: 816px;}
+
+.edit-box .edit-content2 em,
+.edit-box .edit-content em{ vertical-align: middle; color: #c7000b;}
+
+.num-bg{ width: 52px; *width: 54px; height: 52px; *height: 54px; font-size: 24px; line-height: 52px; color: #505050; font-style: normal; text-align: center; background: url('../images/dotted.png') no-repeat 0 -2042px;}
+.num-bg.focus{ background-position: 0 -1900px; color: #fff;}
+
+.edit-content-inner{ position: relative;}
+.edit-box .edit-content2 em,
+.edit-content-inner em{ position: absolute; left: 12px; top:6px; font-size: 30px;}
+.edit-box .edit-content2 em{ left: -22px;}
+
+.edit-box .edit-content2 input,
+.edit-box .edit-content2 .input-div,
+.edit-box .edit-content2 textarea{ width: 738px; border:2px dashed #dadada; font-size: 16px; color: #b4b4b4; }
+.edit-box .edit-content2 input{ line-height: 48px;}
+.edit-box .edit-content2 input,
+.edit-box .edit-content2 .input-div{ padding: 0 20px; height: 48px;}
+.edit-box .edit-content2 textarea{ padding: 10px 20px; height: 120px;}
+
+.edit-box .edit-content2 .upload-img{ height: auto; border:none; margin: 0; padding: 0; width: 702px;}
+
+.a-list a{ border:2px dashed #dadada; display: block; float: left; width: 125px; height: 48px; line-height: 48px; text-align: center; margin: 0 0 0 34px;}
+.a-list a:hover,
+.a-list .active{ color: #fff; background-color: #c7000b; border:2px solid #c7000b;}
 
 /* theme-activities
 ========================================================================== */

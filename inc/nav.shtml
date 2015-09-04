@@ -21,7 +21,7 @@
 										</a>
 										<ul>
 											<li class="write active">
-												<a href="javascript:;">编写游记</a>
+												<a href="edit.shtml">编写游记</a>
 											</li>
 											<li class="my-travels">
 												<a href="youji-caogao.shtml">我的游记</a>

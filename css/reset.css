@@ -54,7 +54,8 @@ em {
 ul{
   list-style: none;
 }
-input {
+input,
+textarea {
   outline: none;
   font-family: 'Microsoft Yahei','Helvetica Neue', Helvetica, STHeiTi, Arial, sans-serif;
 }

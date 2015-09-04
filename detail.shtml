@@ -125,7 +125,6 @@
 				}
 			});
 
-			var headHeight2=$(".details-mark").height();
 			var nav2=$(".right-nav");
 			$(window).scroll(function(){
 				if($(this).scrollTop()>headHeight){
