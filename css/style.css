@@ -128,8 +128,9 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-title{ position: absolute; left: 0; bottom: 15px; width: 100%;}
 .details-title h1{ width: 850px; padding-left: 150px; margin: 0 auto; font-size: 28px;}
 .details-title h1 a{ color: #fff;}
-.details-mark{ background-color: #fff; border-bottom: 1px solid #e8e8e8;}
-.mark-left{ width: 490px; padding-left: 150px; float: left; position: relative;}
+.details-mark{ background-color: #fff; border-bottom: 1px solid #e8e8e8; *position: relative; *z-index: 2;}
+.mark-left{ width: 540px; float: left;}
+.mark-left-inner{ position: relative; padding-left: 150px; width: 490px;}
 .mark-right{ width: 360px; float: right;}
 .mark-left .face-img{ display: block; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; position: absolute; bottom: 12px; left: 0;}
 .mark-left .face-img img{ width: 100%; height: 100%; border-radius: 50%;}
@@ -145,7 +146,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .mark-right .target-addr{  background: url('../images/dotted.png') no-repeat 18px -350px; width: 80px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
 .mark-right .like{  background: url('../images/dotted.png') no-repeat 18px -436px;}
 
-.details-container{}
+.details-container{ position: relative; z-index: 1;}
 .details-left-bar{ float: left; width: 720px; padding-top: 20px;}
 .details-right-bar{ float: right; width: 170px;}
 .details-left-bar h2{ font-size: 20px; font-weight: normal; color: #0a6cff; padding: 20px 0; margin-bottom: 15px; border-bottom: 1px solid #c8c8c8; position: relative;}
@@ -153,7 +154,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-left-bar p{ font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 40px;}
 .details-left-bar p img{ max-width: 100%; *width: 100%; display: block; margin: 0 auto 20px;}
 .travel-record{ border-bottom: 1px solid #c8c8c8;}
-.right-nav { padding-top: 40px;}
+.right-nav { padding-top: 40px; *width: 0px;}
 .right-nav ul{ width: 1px; height: 200px; background-color: #dcdcdc; margin-left: 15px;}
 .right-nav ul li{ margin-left: -15px;}
 .right-nav h4,
@@ -176,7 +177,26 @@ div.flicking_con a.on{background-position:0 -21px}
 #summary-t{ position: absolute; top: -70px; left: 0; z-index: 0; display: block; width: 0; height: 0;}
 #record-t{ top: -150px;}
 
-.details-right-bar .navFix{ left: 50%; margin-left:330px; top: 68px; background-color: #f0f0f0;}
+.details-right-bar .navFix{ left: 50%; margin-left:330px; top: 68px; *top: 10px; background-color: #f0f0f0; z-index: 6;}
+
+
+/* form
+========================================================================== */
+.full,
+.full body,
+.bg-page{height: 100%; width: 100%;}
+.find-password{ background: url('../images/bg1.jpg') no-repeat center top; background-size: auto 100%;}
+.form-container{ width: 500px; margin: 0 auto; padding-top: 100px;}
+.form-content{ background-color: #fff; padding: 30px 50px 15px;}
+.form-content h3{ font-size: 16px; color: #505050;}
+.form-group { padding-top: 20px;}
+.form-group input{ width: 380px; padding: 13px 10px; line-height: 1; border: 1px solid #ededed; background-color: #fff; font-size: 14px; color: #c8c8c8;}
+.form-group .btn{ background-color: #c7000b; border:1px solid #c7000b; width: 100%; color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 16px;}
+.small-notice{ text-align: center; margin-top: 25px; color: #787878;}
+.small-notice a{ color: #c7000b;}
+.Immediately{ margin-top: 60px;}
+.error { color: #c7000b; font-size: 14px; text-align: right; margin-top: 5px;}
+
 
 /* theme-activities
 ========================================================================== */
