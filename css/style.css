@@ -145,17 +145,20 @@ div.flicking_con a.on{background-position:0 -21px}
 .mark-right .target-addr{  background: url('../images/dotted.png') no-repeat 18px -350px; width: 80px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
 .mark-right .like{  background: url('../images/dotted.png') no-repeat 18px -436px;}
 
-.details-left-bar{ float: left; width: 720px;}
+.details-container{}
+.details-left-bar{ float: left; width: 720px; padding-top: 20px;}
 .details-right-bar{ float: right; width: 170px;}
-.details-left-bar h2{ font-size: 20px; font-weight: normal; color: #0a6cff; padding: 20px 0; margin-bottom: 15px; border-bottom: 1px solid #c8c8c8;}
+.details-left-bar h2{ font-size: 20px; font-weight: normal; color: #0a6cff; padding: 20px 0; margin-bottom: 15px; border-bottom: 1px solid #c8c8c8; position: relative;}
 .details-left-bar .travel-line{ font-size: 18px; color: #0a6cff; padding-bottom: 40px; border-bottom: 1px solid #c8c8c8;}
 .details-left-bar p{ font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 40px;}
 .details-left-bar p img{ max-width: 100%; *width: 100%; display: block; margin: 0 auto 20px;}
 .travel-record{ border-bottom: 1px solid #c8c8c8;}
-.right-nav { padding-top: 20px;}
-.right-nav h4{ font-size: 20px;}
+.right-nav { padding-top: 40px;}
+.right-nav ul{ width: 1px; height: 200px; background-color: #dcdcdc; margin-left: 15px;}
+.right-nav ul li{ margin-left: -15px;}
 .right-nav h4,
 .right-nav a{ display: block; width: 106px; padding-left: 64px; height: 58px; color: #969696; line-height: 58px;}
+.right-nav h4{ font-size: 20px; line-height: 1; height: auto; padding-bottom: 20px;}
 .right-nav a{ font-size: 16px; background: url('../images/dotted.png') no-repeat 0 -746px;}
 .right-nav .current,
 .right-nav a:hover{ color: #217aff; background-position: 0 -636px;}
@@ -167,6 +170,11 @@ div.flicking_con a.on{background-position:0 -21px}
 .right-nav .right3 a{ background-position: 0 -1189px;}
 .right-nav .right3 .current,
 .right-nav .right3 a:hover{ background-position: 0 -1078px;}
+
+#line-t,
+#record-t,
+#summary-t{ position: absolute; top: -70px; left: 0; z-index: 0; display: block; width: 0; height: 0;}
+#record-t{ top: -150px;}
 
 .details-right-bar .navFix{ left: 50%; margin-left:330px; top: 68px; background-color: #f0f0f0;}
 
