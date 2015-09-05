@@ -52,7 +52,7 @@
 							</div>
 						</li>
 						<!-- 结束 -->
-						
+
 						<li>
 							<a class="item-img" href="detail.shtml">
 								<img src="images/bg4.jpg" width="320" height="280">
@@ -186,9 +186,6 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script><!-- 轮播图 -->
-	<script type="text/javascript" src="js/jquery.touchSlider.js"></script><!-- 轮播图 -->
-	<script type="text/javascript" src="js/banner.js"></script><!-- 轮播图 -->
 	<script type="text/javascript">
 		$(document).ready(function(){
 
