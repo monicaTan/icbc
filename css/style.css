@@ -3,6 +3,7 @@ body{ line-height: 1;}
 .inner-module{ width: 1000px; margin: 0 auto;}
 .wrap-grey{ background-color: #f0f0f0;}
 .right{ float: right;}
+.left{ float: left;}
 
 /* nav
 ========================================================================== */
@@ -56,7 +57,7 @@ body{ line-height: 1;}
 .main_image li .img_3{background:url('../images/banner4.jpg') center top no-repeat}
 
 
-div.flicking_con{position:absolute;top:370px;left:50%;z-index:99;width:300px;height:21px;margin:0 0 0 -50px;}
+div.flicking_con{position:absolute;top:370px;left:50%;z-index:10;width:300px;height:21px;margin:0 0 0 -50px;}
 div.flicking_con a{float:left;width:21px;height:21px;margin:0 10px;padding:0;background:url('../images/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
 div.flicking_con a.on{background-position:0 -21px}
 #btn_prev,#btn_next{z-index:11111;position:absolute;display:block;width:31px!important;height:58px!important;top:50%;margin-top:-37px;display:none;}
@@ -110,16 +111,6 @@ div.flicking_con a.on{background-position:0 -21px}
 .theme-title{ position: absolute; bottom: 20px; left: 0; font-size: 22px; color: #fff; padding: 0 20px;}
 .theme-content a{ color: #fff;}
 
-/* ouzhou
-========================================================================== */
-.head-img,
-.head-details{ height: 400px; width: 100%; padding-bottom: 40px; position: relative;}
-
-.head-img{ background: transparent url('../images/ouzhou.jpg') no-repeat center top;}
-.head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
-
-.theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}
-.theme-font span{ background: transparent url('../images/dotted.png') no-repeat 0 -91px; padding-left: 62px;}
 
 /* details
 ========================================================================== */
@@ -327,6 +318,34 @@ div.flicking_con a.on{background-position:0 -21px}
 .edit-box .edit-content2 .btn-up{ color: #fff; font-size: 16px; background-color: #c7000b; border: 0;}
 .edit-box .edit-content2 .btn-link{ color: #787878; font-size: 16px; background-color: #fff; border: 0;}
 
+/* ouzhou
+========================================================================== */
+.head-img,
+.head-details{ height: 400px; width: 100%; padding-bottom: 40px; position: relative;}
+
+.head-img{ background: transparent url('../images/ouzhou.jpg') no-repeat center top;}
+.head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
+
+.theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}
+.theme-font span{ background: transparent url('../images/dotted.png') no-repeat 0 -91px; padding-left: 62px;}
+
+/* waterfull
+--------------------------------------- */
+.water-list ul{ margin-left: -20px;}
+.water-list li{ float: left; width: 320px; *width: 318px; margin: 0 0 40px 20px; background-color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -webkit-box-shadow:0 3px 3px rgba(0, 0, 0, .1);  -moz-box-shadow:0 3px 3px rgba(0, 0, 0, .1); box-shadow:0 3px 3px rgba(0, 0, 0, .1); overflow: hidden; *border: 3px solid #e6e6e6; *border-width: 0 1px 3px 1px;}
+.water-list li .item-img{ display: block; width: 320px; height: 280px;}
+.water-list li .item-img img{width: 100%; height: 100%;}
+.water-list li h4 a{ color: #505050; font-size: 18px; font-weight: normal; display: block; height: 24px; width: 100%; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
+.item-info{ padding: 10px;}
+.list-info{ font-size: 12px; color: #969696; width: 240px; padding-top: 5px;}
+.list-info span{ display: block; width: 80px; float: left; height: 20px; line-height: 20px;}
+.list-info .item-author{ width: 100%;}
+.circle-img,
+.circle-img img{ width: 40px; height: 40px;}
+.circle-img{ position: relative; margin-top: 5px;}
+.circle-img .circle-mask{ position: absolute; left: 0; top: 0; z-index: 4;}
+.list-info .icon-pepole{ padding-left: 28px; width: 52px; background: url('../images/icon_05.png') no-repeat left center;}
+.list-info .icon-heart{ padding-left: 19px; width: 61px; background: url('../images/heart.png') no-repeat left center;}
 
 /* theme-activities
 ========================================================================== */
