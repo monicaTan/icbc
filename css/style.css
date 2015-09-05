@@ -12,7 +12,7 @@ body{ line-height: 1;}
 .nav li a{ text-decoration:none;}
 .nav li a:hover{ color:#c7000b;}
 .nav ul{ list-style:none;}
-.navFix{background-color: #fff; position:fixed; left:0; top:0; _position:absolute; top:expression((offsetParent.scrollTop)+0); z-index:2;}
+.navFix{background-color: #fff; position:fixed; left:0; top:0; _position:absolute; top:expression((offsetParent.scrollTop)+0); z-index:100;}
 .logo{ width: 300px; font-size: 0; float: left;}
 .login{ float: right; text-align: right; font-size: 0; width: 600px;}
 .login .user-link a,
@@ -51,9 +51,9 @@ body{ line-height: 1;}
 .main_image li{float:left;width:100%;height:400px;}
 .main_image li span{display:block;width:100%;height:400px}
 .main_image li a{display:block;width:100%;height:400px}
-.main_image li .img_1{background:url('../images/banner.jpg') center top no-repeat}
-.main_image li .img_2{background:url('../images/img2.jpg') center top no-repeat}
-.main_image li .img_3{background:url('../images/ouzhou.jpg') center top no-repeat}
+.main_image li .img_1{background:url('../images/banner2.jpg') center top no-repeat}
+.main_image li .img_2{background:url('../images/banner3.jpg') center top no-repeat}
+.main_image li .img_3{background:url('../images/banner4.jpg') center top no-repeat}
 
 
 div.flicking_con{position:absolute;top:370px;left:50%;z-index:999;width:300px;height:21px;margin:0 0 0 -50px;}
@@ -274,7 +274,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 /* edit
 ========================================================================== */
-.edit-box{ font-size: 20px;}
+.edit-box{ font-size: 20px; padding-top: 70px;}
 .edit-box i,
 .edit-box span,
 .edit-box .edit-content2,
@@ -284,6 +284,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .edit-content-inner em,
 .edit-box span{ height: 52px; line-height: 52px;}
 
+.edit-box ul { background: url('../images/dian.png') repeat-y 25px top;}
 .edit-box ul li{ margin-bottom: 50px;}
 
 .edit-box span{padding-left: 10px; width: 120px;}
@@ -303,10 +304,10 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .edit-box .edit-content2 input,
 .edit-box .edit-content2 .input-div,
-.edit-box .edit-content2 textarea{ width: 738px; border:2px dashed #dadada; font-size: 16px; color: #b4b4b4; }
-.edit-box .edit-content2 input{ line-height: 48px;}
-.edit-box .edit-content2 input,
-.edit-box .edit-content2 .input-div{ padding: 0 20px; height: 48px;}
+.edit-box .edit-content2 textarea{ width: 738px; border:2px dashed #dadada; font-size: 16px; color: #b4b4b4;}
+
+.edit-box .edit-content2 input{ padding: 0 20px; height: 48px; line-height: 48px;}
+.edit-box .edit-content2 .input-div{ height: 160px; padding:20px;}
 .edit-box .edit-content2 textarea{ padding: 10px 20px; height: 120px;}
 
 .edit-box .edit-content2 .upload-img{ height: auto; border:none; margin: 0; padding: 0; width: 702px;}
@@ -314,6 +315,18 @@ div.flicking_con a.on{background-position:0 -21px}
 .a-list a{ border:2px dashed #dadada; display: block; float: left; width: 125px; height: 48px; line-height: 48px; text-align: center; margin: 0 0 0 34px;}
 .a-list a:hover,
 .a-list .active{ color: #fff; background-color: #c7000b; border:2px solid #c7000b;}
+
+.form-rules{ float: left; width: 300px;}
+.edit-box .edit-content2 .checked-icon{ width: auto; vertical-align: middle; border: 0; line-height: 30px; height: 30px;}
+.all-submit { margin-top: 25px;}
+.all-submit label{ color: #787878; font-size: 14px;}
+
+.edit-box .edit-content2 .btn-up,
+.edit-box .edit-content2 .btn-link{ float: right; width: auto; width: 120px; height: 30px; line-height: 30px; cursor: pointer;}
+
+.edit-box .edit-content2 .btn-up{ color: #fff; font-size: 16px; background-color: #c7000b; border: 0;}
+.edit-box .edit-content2 .btn-link{ color: #787878; font-size: 16px; background-color: #fff; border: 0;}
+
 
 /* theme-activities
 ========================================================================== */

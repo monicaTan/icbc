@@ -62,11 +62,27 @@
 								<div class="edit-content2">
 									<div class="edit-content-inner">
 										<em>*</em>
-										<!-- <input type="text" placeholder="上传一张封面图，图片大小不小于100KB" /> -->
 										<div class="input-div">
-											<input type="file" class="upload-img" id="picPath" name="doc" onchange="PreviewImage('Preview',this,120,120);" />
-									    	<div id="Preview" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);">
-									    	</div>
+											<div id="container">
+											    <!--头部，相册选择和格式选择-->
+											    <div id="uploader">
+											        <div class="queueList">
+											            <div id="dndArea" class="placeholder">
+											                <div id="filePicker"></div>
+											                <p>上传一张封面图，图片大小不小于2M.</p>
+											            </div>
+											        </div>
+											        <div class="statusBar" style="display:none;">
+											            <div class="progress">
+											                <span class="text">0%</span>
+											                <span class="percentage"></span>
+											            </div><div class="info"></div>
+											            <div class="btns">
+											                <div id="filePicker2"></div><div class="uploadBtn">开始上传</div>
+											            </div>
+											        </div>
+											    </div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -92,6 +108,16 @@
 									<div class="edit-content-inner">
 										<textarea>总结：例如旅行感悟等等</textarea>
 									</div>
+									<div class="all-submit">
+										<div class="clearfix">
+											<div class="form-rules">
+												<input class="checked-icon" id="rules-link" type="checkbox" />
+												<label for="rules-link">我已仔细阅读活动条款内容</label>
+											</div>
+											<input class="btn-up" type="submit" value="上传游记" />
+											<input class="btn-link" type="submit" value="保存草稿" />
+										</div>
+									</div>
 								</div>
 							</li>
 						</ul>
@@ -99,12 +125,13 @@
 				</div>
 			</div>
 		</div>
-
 		<!--#include file="inc/footer.shtml"-->
 	</div>
 
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="js/placeholder.js"></script>
+	<script type="text/javascript" src="js/placeholder.js"></script><!-- placeholder兼容文件 -->
+	<script type="text/javascript" src="js/webuploader.min.js"></script><!-- 上传图片js文件 -->
+	<script type="text/javascript" src="js/webuploader-default.js"></script><!-- 上传图片初始化文件 -->
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -132,46 +159,26 @@
 			$('.logged-on').mouseout(function(){
 				$(".user-center ul").hide();
 			});
+
+			//获取焦点
+
+			$('.edit-box ul li:eq(0)').children('i').addClass('focus');
+			$('.edit-box ul li').mouseover(function(){
+				$(this).children('i').addClass('focus');
+			});
+			$('.edit-box ul li').mouseout(function(){
+				$(this).children('i').removeClass('focus');
+				$(this).parent('ul').children('li').eq(0).children('i').addClass('focus');
+			});
+
+
+		  	// $(".edit-content-inner > input,.edit-content-inner > textarea").focus(function(){
+		   //  	$(this).parents('li').children('i').addClass('focus');
+		  	// });
+		  	// $(".edit-content-inner > input,.edit-content-inner > textarea").blur(function(){
+		   //  	$(this).parents('li').children('i').removeClass('focus');
+		  	// });
 		}) 
 	</script>
-
-	<!-- 上传图片 -->
-	<script type="text/javascript" language="javascript">
-        function checkPic() {
-            var picPath = document.getElementById("picPath").value;
-            var type = picPath.substring(picPath.lastIndexOf(".") + 1, picPath.length).toLowerCase();
-            if (type != "jpg" && type != "bmp" && type != "gif" && type != "png") {
-                alert("请上传正确的图片格式");
-                return false;
-            }
-            return true;
-        }
-        //图片预览
-        function PreviewImage(divImage, upload, width, height) {
-            if (checkPic()) {
-                try {
-                    var imgPath;      //图片路径
-
-                    var Browser_Agent = navigator.userAgent;
-                    //判断浏览器的类型
-                    if (Browser_Agent.indexOf("Firefox") != -1) {
-                        //火狐浏览器
-
-					//getAsDataURL在Firefox7.0 无法预览本地图片，这里需要修改
-                        imgPath = upload.files[0].getAsDataURL();
-                        document.getElementById(divImage).innerHTML = "<img id='imgPreview' src='" + imgPath + "' width='" + width + "' height='" + height + "'/>";
-                    } else {
-                        //IE浏览器 ie9 必须在兼容模式下才能显示预览图片
-                        var Preview = document.getElementById(divImage);
-                        Preview.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = upload.value;
-                        Preview.style.width = width;
-                        Preview.style.height = height;
-                    }
-                } catch (e) {
-                    alert("请上传正确的图片格式");
-                }
-            }
-        }
-    </script>
 </body>
 </html>
