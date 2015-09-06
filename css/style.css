@@ -333,7 +333,9 @@ div.flicking_con a.on{background-position:0 -21px}
 .head-img,
 .head-details{ height: 400px; width: 100%; padding-bottom: 40px; position: relative;}
 
-.head-img{ background: transparent url('../images/ouzhou.jpg') no-repeat center top;}
+.head-img,
+.Europe-bg{ background: transparent url('../images/ouzhou.jpg') no-repeat center top;}
+
 .head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
 
 .theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}

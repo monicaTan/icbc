@@ -12,7 +12,7 @@
 		<!-- top -->
 		<!--#include file="inc/nav.shtml"-->
 
-		<div class="head-img"><!-- 可更换背景图片 -->
+		<div class="head-img Europe-bg"><!-- 五大洲背景主图不一样 -->
 			<div class="theme-font">
 				<span>欧洲</span>
 			</div>
