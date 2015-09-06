@@ -26,9 +26,13 @@ img {
   max-width: 100%;
 }
 a {
+  color: #c7000b;
   text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: transparent; 
+}
+a:hover{
+  color: #c7000b;
 }
 a:active {
     outline: 0; 
@@ -50,8 +54,10 @@ em {
 ul{
   list-style: none;
 }
-input {
+input,
+textarea {
   outline: none;
+  font-family: 'Microsoft Yahei','Helvetica Neue', Helvetica, STHeiTi, Arial, sans-serif;
 }
 input[type="text"],
 input[type="tel"] {
@@ -68,10 +74,10 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 input::-moz-placeholder,
-textarea::-moz-placeholder { color: #cccccc; }
+textarea::-moz-placeholder { color: #aaaaaa; }
 
 input:-ms-input-placeholder,
-textarea:-ms-input-placeholder { color: #cccccc; }
+textarea:-ms-input-placeholder { color: #aaaaaa; }
 
 input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder { color: #cccccc; }
+textarea::-webkit-input-placeholder { color: #aaaaaa; }
