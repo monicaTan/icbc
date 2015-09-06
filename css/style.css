@@ -114,7 +114,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 /* details
 ========================================================================== */
-.details-banner{ position: relative;}
+.details-banner{ position: relative; *overflow: hidden;}
 .details-banner .head-img,
 .details-banner .head-details{ padding-bottom: 0;}
 .details-title{ position: absolute; left: 0; bottom: 15px; width: 100%;}
