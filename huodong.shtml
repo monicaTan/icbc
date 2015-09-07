@@ -14,9 +14,9 @@
 
 		<div class="head-regulation">
 			<div class="inner-module">
-				<h1>晒游记，赢大奖</h1>
+				<h1>晒攻略，赢大奖</h1>
 				<p>
-					<a href="edit.shtml">编辑游记</a>
+					<a href="edit.shtml">编辑攻略</a>
 				</p>
 			</div>
 		</div>
@@ -25,7 +25,7 @@
 			<div class="inner-module">
 				<div class="regulation-content">
 					<h2 class="title clearfix">
-						<span>全球热门</span>
+						<span>活动详情</span>
 					</h2>
 					<div class="regulation">
 						<p class="headline">活动时间：</p>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>我的游记-草稿</title>
+	<title>我的攻略-草稿</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<!--#include file="inc/common.shtml"--> 
@@ -29,7 +29,7 @@
 				<div>
 					<div class="box demo2">
 						<ul class="tab_menu">
-							<li class="line-right current">已发布的游记</li>
+							<li class="line-right current">已发布的攻略</li>
 							<li>草稿箱</li>
 						</ul>
 						<div class="tab_box">
@@ -94,8 +94,8 @@
 													<a class="title-limit" href="detail.shtml">【腌鱼的画】记得那一片宁静的海</a>
 													<span>
 														<div class="clearfix">
-															<a class="edit" href="javascript:;">编辑游记</a>
-															<a class="remove" href="javascript:;">删除游记</a>
+															<a class="edit" href="javascript:;">编辑攻略</a>
+															<a class="remove" href="javascript:;">删除攻略</a>
 														</div>
 													</span>
 												</h3>

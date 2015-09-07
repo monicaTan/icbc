@@ -10,7 +10,7 @@
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-	background: #c7000b;
+	background: #e70000;
 	padding: 10px 15px;
 	color: #fff;
 	text-align: center;
@@ -18,7 +18,7 @@
 	overflow: hidden;
 }
 .webuploader-pick-hover {
-	background: #c7000b;
+	background: #e70000;
 }
 
 .webuploader-pick-disable {
@@ -65,7 +65,7 @@
 #uploader .placeholder .webuploader-pick {
     font-size: 20px;
     width: 160px;
-    background: #c7000b;
+    background: #e70000;
     border-radius: 3px;
     line-height: 40px;
     padding: 0;
@@ -77,7 +77,7 @@
 }
 
 #uploader .placeholder .webuploader-pick-hover {
-    background: #c7000b;
+    background: #e70000;
 }
 
 #uploader .placeholder .flashTip {
@@ -387,12 +387,12 @@
 }
 
 #uploader .statusBar .btns .uploadBtn {
-    background: #c7000b;
+    background: #e70000;
     color: #fff;
     border-color: transparent;
 }
 #uploader .statusBar .btns .uploadBtn:hover {
-    background: #c7000b;
+    background: #e70000;
 }
 
 #uploader .statusBar .btns .uploadBtn.disabled {

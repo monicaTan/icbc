@@ -11,7 +11,7 @@ body{ line-height: 1;}
 .nav .logo,
 .nav .login{ padding:0 10px; line-height:37px;}
 .nav li a{ text-decoration:none;}
-.nav li a:hover{ color:#c7000b;}
+.nav li a:hover{ color:#e70000;}
 .nav ul{ list-style:none;}
 .navFix{background-color: #fff; position:fixed; left:0; top:0; _position:absolute; top:expression((offsetParent.scrollTop)+0); z-index:100;}
 .logo{ width: 300px; font-size: 0; float: left;}
@@ -24,12 +24,12 @@ body{ line-height: 1;}
 .user-img{ position: relative; width: 44px; height: 44px; margin-right: 15px; float: left;}
 .user-img .mask{ position: absolute; left: 0; top: 0; z-index: 10;}
 .user-center{ float: left; line-height: 44px; position: relative; z-index: 10; padding-right: 30px;}
-.icon-down{ width:0; height:0; border-width:6px 6px 0; border-style:solid; border-color:#c7000b #fff #fff; position:relative; display: block; position: absolute; right: 0; top: 50%; margin-top: -6px;}
+.icon-down{ width:0; height:0; border-width:6px 6px 0; border-style:solid; border-color:#e70000 #fff #fff; position:relative; display: block; position: absolute; right: 0; top: 50%; margin-top: -6px;}
 .user-center ul{ position: absolute; top: 44px; *top: 42px; right: 0; line-height: 0; width: 145px; padding-top: 12px; *padding-top: 14px; display: none;}
 .user-center ul li{ width: 100%; font-size: 0; overflow: hidden; text-align: left;  border:1px solid #c8c8c8; border-bottom-color: #f3f3f3; border-top: 0;}
 .user-center ul .exit{ border-bottom:1px solid #c8c8c8;}
 .user-center ul li a{display: block; font-size: 14px; color: #505050; height: 38px; line-height: 38px; padding: 0 8px 0 55px; background: #fff url('../images/icon.png') 18px 6px no-repeat;}
-.user-center ul li a:hover{ background-color: #c7000b; color: #fff;}
+.user-center ul li a:hover{ background-color: #e70000; color: #fff;}
 
 .user-name{ font-size: 16px; color: #505050;}
 .user-center ul .write a:hover{ background-position: 18px -78px;}
@@ -64,6 +64,23 @@ div.flicking_con a.on{background-position:0 -21px}
 #btn_prev{background:url('../images/prev.png') no-repeat left top;left:50%;margin-left:-480px;}
 #btn_next{background:url('../images/next.png') no-repeat right top;right:50%;margin-right:-480px;}
 
+/* banner-mini
+========================================================================== */
+.ck-slide { width: 320px; height: 120px; margin: 0 auto;}
+.ck-slide ul.ck-slide-wrapper { height: 120px;}
+.ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+.ck-slide { position: relative; overflow: hidden;}
+.ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; padding: 0;}
+.ck-slide ul.ck-slide-wrapper li { position: absolute;}
+.ck-slide .ck-prev, .ck-slide .ck-next { display: none; position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.ck-slide .ck-prev { left: 5px; background: url(../images/arrow-left.png) #000 50% no-repeat;}
+.ck-slide .ck-next { right: 5px; background: url(../images/arrow-right.png) #000 50% no-repeat;}
+.ck-slidebox { position: absolute; right: 10px; bottom: 12px; z-index: 30;}
+.ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background: url('../images/dote.png') -25px top no-repeat; text-indent: -9999px; cursor: pointer;}
+.ck-slidebox ul li.current em,
+.ck-slidebox ul li em:hover { background-position: left top;}
+
 /* hot-address
 ========================================================================== */
 .title{ font-size: 0; margin-bottom: 40px; font-weight: normal;}
@@ -75,7 +92,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .title span,
 .title .more{display: block; float: left;}
-.title a:hover{color: #c7000b;}
+.title a:hover{color: #e70000;}
 .hot-address{ font-size: 0; margin-left: -20px;}
 .hot-address li{ float: left; margin: -20px 0 0 20px; width: 320px;}
 .hot-address li a{ display: block; margin-top: 20px;}
@@ -86,6 +103,7 @@ div.flicking_con a.on{background-position:0 -21px}
 ========================================================================== */
 .left-bar{ float: left; width: 660px;}
 .right-bar{ float: right; width: 320px;}
+.right-bar .title{ margin-bottom: 20px;}
 .bottom-line1{ margin: 20px 0; width: 100%; height: 1px; background-color: #eeeeee; clear: both;}
 .list-content li .img-content { display: block; font-size: 0; line-height: 0; float: left; width: 210px; height: 126px;}
 .list-content li img {width: 100%; height: 100%;}
@@ -94,17 +112,17 @@ div.flicking_con a.on{background-position:0 -21px}
 .list-description .summary{ font-size: 14px; color: #505050; line-height: 22px; text-align: justify; height: 66px; overflow: hidden; margin: 10px 0 10px;}
 .list-description .small-text{ font-size: 12px; color: #969696;}
 .list-description .small-text span{ display: block; float: left; width: 92px; padding-right: 20px; height: 24px; line-height: 24px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
-.list-description .small-text .icon-heart{ padding: 0 20px 0 20px; width: 72px; background: url('../images/heart.png') no-repeat left center; color: #c7000b;}
+.list-description .small-text .icon-heart{ padding: 0 20px 0 20px; width: 72px; background: url('../images/heart.png') no-repeat left center; color: #e70000;}
 .list-description .small-text .from{ padding-right: 0;}
 
 
 /* right-bar
 ========================================================================== */
-.active-rule{ padding: 20px; background-color: #f0f0f0;}
-.active-rule h4{ font-size: 20px; font-weight: normal; color: #c7000b; margin-bottom: 5px;}
+.active-rule{ padding: 15px 20px 10px; background-color: #f0f0f0;}
+.active-rule h4{ font-size: 20px; font-weight: normal; color: #e70000; margin-bottom: 5px;}
 .active-rule p{ font-size: 14px; line-height: 25px; color: #505050; text-align: justify;}
-.rule-time{ margin-bottom: 20px;}
-.right-bar .bottom-line{ margin: 25px 0;}
+.rule-time{ margin-bottom: 10px;}
+.right-bar .bottom-line{ margin: 20px 0;}
 .product-link { display: block; margin-top: -20px;}
 
 /* theme-activities
@@ -192,16 +210,16 @@ div.flicking_con a.on{background-position:0 -21px}
 .form-content h3{ font-size: 16px; color: #505050; padding-bottom: 5px;}
 .form-group { padding-top: 15px;}
 .form-group input{ width: 380px; padding: 12px 10px; *padding: 10px 10px; line-height: 1; border: 1px solid #ededed; background-color: #fff; font-size: 14px; color: #c8c8c8;}
-.form-group .btn{ cursor: pointer; background-color: #c7000b; border:0; width: 100%; color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 16px;}
+.form-group .btn{ cursor: pointer; background-color: #e70000; border:0; width: 100%; color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 16px;}
 .form-group .btn-mar{  margin-top: 20px;}
 .small-notice{ text-align: center; margin-top: 15px; color: #787878;}
-.small-notice a{ color: #c7000b;}
+.small-notice a{ color: #e70000;}
 
 .small-notice2 a,
 .small-notice2 span{  float: left;}
 .small-notice2 .back{ float: right; color: #787878;}
 .Immediately{ margin-top: 60px;}
-.error { color: #c7000b; font-size: 14px; text-align: right; margin-top: 5px;}
+.error { color: #e70000; font-size: 14px; text-align: right; margin-top: 5px;}
 .icon-email {display: block; margin: 15px auto 20px; width: 60px; height: 30px; background: url('../images/dotted.png') no-repeat left -1370px;}
 .text-notice{ text-align: justify; color: #787878; line-height: 25px; padding-bottom: 10px;}
 
@@ -224,10 +242,10 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .form-row{ margin-bottom: 20px;}
 .form-row label{ width: 240px; line-height: 54px; font-size: 24px; float: left; text-align: right;}
-.form-row label em{ font-style: normal; color: #c7000b; font-size: 24px; vertical-align: middle; margin-right: 20px; line-height: 1;}
+.form-row label em{ font-style: normal; color: #e70000; font-size: 24px; vertical-align: middle; margin-right: 20px; line-height: 1;}
 .form-row input{ float: left; width: 615px; padding: 9px 10px; *padding: 10px 10px; border: 1px solid #ededed; background-color: #fff; font-size: 25px; color: #505050;}
 .form-title{ color: #505050; font-size: 28px; font-weight: normal; margin: 40px 0;}
-.form-row .btn-save{ width: 156px; background-color: #c7000b; color: #fff; margin: 40px 0 80px 721px; padding: 8px 0; border:0;}
+.form-row .btn-save{ width: 156px; background-color: #e70000; color: #fff; margin: 40px 0 80px 721px; padding: 8px 0; border:0;}
 
 
 /* my-travel
@@ -239,7 +257,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .box{width:100%; margin:10px auto 60px; background:#fff;}
 .tab_menu{overflow:hidden; margin: 40px 0;}
 .tab_menu li{ float:left; height:30px; padding: 0 45px; font-size: 28px; line-height:30px; color:#505050; text-align:center; cursor:pointer;}
-.tab_menu li.current{color:#c7000b;}
+.tab_menu li.current{color:#e70000;}
 .tab_menu .line-right{ border-right: 1px solid #505050;}
 .tab_box .hide{display:none;}
 .tab_box .list-content li .img-content { width: 355px; height: 240px;}
@@ -250,7 +268,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .tab_box .list-description h3 span{ display: block; width: 250px; float: right; margin-top: 10px;}
 .tab_box .list-description h3 span a{ font-size: 16px; width: 64px; height: 30px; line-height: 30px; margin: 0; padding-left: 35px; float: left; background: url('../images/dotted.png') no-repeat 0 -1559px;}
-.tab_box .list-description h3 span .remove{ background-position: 0 -1770px; color: #c7000b;}
+.tab_box .list-description h3 span .remove{ background-position: 0 -1770px; color: #e70000;}
 
 .tab_box .list-description h3 span .edit{ padding-right: 20px;}}
 .tab_box  .list-description .small-text span{ width: 95px; height: 24px; line-height: 24px;}
@@ -298,7 +316,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .edit-box .edit-content{ width: 816px;}
 
 .edit-box .edit-content2 em,
-.edit-box .edit-content em{ vertical-align: middle; color: #c7000b;}
+.edit-box .edit-content em{ vertical-align: middle; color: #e70000;}
 
 .num-bg{ width: 52px; *width: 54px; height: 52px; *height: 54px; font-size: 24px; line-height: 52px; color: #505050; font-style: normal; text-align: center; background: url('../images/dotted.png') no-repeat 0 -2042px;}
 .num-bg.focus{ background-position: 0 -1900px; color: #fff;}
@@ -315,7 +333,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .edit-content2 .input-div input{ float: left;}
 .edit-content2 .input-div .img-input{ width: 616px; margin-right: 20px;}
-.edit-content2 .input-div .img-btn{ width: 100px; height: auto; line-height: 34px; margin-top: 8px; background-color: #c7000b; border: 0; color: #fff;}
+.edit-content2 .input-div .img-btn{ width: 100px; height: auto; line-height: 34px; margin-top: 8px; background-color: #e70000; border: 0; color: #fff;}
 
 .edit-box .edit-content2 textarea{ padding: 10px 20px; height: 120px;}
 .edit-box .edit-content2 .upload-img{ height: auto; border:none; margin: 0; padding: 0; width: 702px;}
@@ -323,7 +341,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .a-list a{ border:2px dashed #dadada; display: block; float: left; width: 125px; height: 48px; line-height: 48px; text-align: center; margin: 0 0 0 34px;}
 .a-list2 a{ width: 166px;}
 .a-list a:hover,
-.a-list .active{ color: #fff; background-color: #c7000b; border:2px solid #c7000b;}
+.a-list .active{ color: #fff; background-color: #e70000; border:2px solid #e70000;}
 
 .form-rules{ float: left; width: 300px;}
 .edit-box .edit-content2 .checked-icon{ width: auto; vertical-align: middle; border: 0; line-height: 30px; height: 30px;}
@@ -333,7 +351,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .edit-box .edit-content2 .btn-up,
 .edit-box .edit-content2 .btn-link{ float: right; width: auto; width: 120px; height: auto; line-height: 30px; cursor: pointer;}
 
-.edit-box .edit-content2 .btn-up{ color: #fff; font-size: 16px; background-color: #c7000b; border: 0;}
+.edit-box .edit-content2 .btn-up{ color: #fff; font-size: 16px; background-color: #e70000; border: 0;}
 .edit-box .edit-content2 .btn-link{ color: #787878; font-size: 16px; background-color: #fff; border: 0;}
 
 /* ouzhou
@@ -374,10 +392,23 @@ div.flicking_con a.on{background-position:0 -21px}
 .regulation-content{ margin: 40px auto 0;}
 .regulation { text-align: center; font-size: 20px; color: #505050;}
 .regulation p{ line-height: 60px; border-top: 1px solid #c8c8c8;}
-.regulation .headline{ color: #c7000b; font-size: 24px; font-weight: bold;}
+.regulation .headline{ color: #e70000; font-size: 24px; font-weight: bold;}
 .warning-text,
 .small-text{ font-size: 14px;}
-.warning-text{ font-size: 14px; color: #c7000b;}
+.warning-text{ font-size: 14px; color: #e70000;}
+
+/* ming dan
+========================================================================== */
+
+.topRec_List dl,
+.maquee{ width:300px; padding: 0 10px; overflow:hidden; margin:0 auto; color:#7C7C7C;}
+.maquee{ background-color: #f0f0f0;}
+.topRec_List dl{ background-color: #e70000;}
+.topRec_List dl dd{ float:left; height: 24px; line-height: 24px; text-align:center; color:#fff; width: 50%; text-align: left; font-size: 16px;}
+.maquee{ height:93px;}
+.topRec_List ul{ width:100%; height:195px;}
+.topRec_List li{ width:100%; height:30px; line-height:30px; text-align:center; font-size:12px; border-bottom: 1px dashed #f0f0f0;}
+.topRec_List li div{ float:left; width: 50%; text-align: left; font-size: 14px;}
 
 /* theme-activities
 ========================================================================== */

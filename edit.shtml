@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>编写游记</title>
+	<title>编写攻略</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<link rel="stylesheet" type="text/css" href="kindeditor-4.1.10/themes/default/default.css">
 	<!--#include file="inc/common.shtml"--> 
 </head>
 <body>
@@ -11,7 +12,6 @@
 		<div class="header" style="height:0;"></div>
 		<!-- top -->
 		<!--#include file="inc/nav.shtml"-->
-		<link rel="stylesheet" type="text/css" href="kindeditor-4.1.10/themes/default/default.css">
 
 		<div class="main">
 			<div class="inner-module">

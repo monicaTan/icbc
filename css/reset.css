@@ -26,13 +26,13 @@ img {
   max-width: 100%;
 }
 a {
-  color: #c7000b;
+  color: #e70000;
   text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: transparent; 
 }
 a:hover{
-  color: #c7000b;
+  color: #e70000;
 }
 a:active {
     outline: 0; 
