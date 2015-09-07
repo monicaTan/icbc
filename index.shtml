@@ -76,7 +76,7 @@
 						<div class="left-bar">
 							<h2 class="title clearfix">
 								<span>精选攻略</span>
-								<a class="more" href="javascript:;">更多</a>
+								<!-- <a class="more" href="javascript:;">更多</a> -->
 							</h2>
 							<div class="content">
 								<ul class="list-content">
@@ -335,7 +335,7 @@
 			});
 
 			$('.ck-slide').ckSlide({
-				autoPlay: true,
+				autoPlay: true
 			});
 		}) 
 	</script>
@@ -354,9 +354,5 @@
 			}) 
 			
 	</script> 
-	<!-- 小轮播 -->
-	<script>
-		
-	</script>
 </body>
 </html>

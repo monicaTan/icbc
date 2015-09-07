@@ -25,7 +25,7 @@ body{ line-height: 1;}
 .user-img .mask{ position: absolute; left: 0; top: 0; z-index: 10;}
 .user-center{ float: left; line-height: 44px; position: relative; z-index: 10; padding-right: 30px;}
 .icon-down{ width:0; height:0; border-width:6px 6px 0; border-style:solid; border-color:#e70000 #fff #fff; position:relative; display: block; position: absolute; right: 0; top: 50%; margin-top: -6px;}
-.user-center ul{ position: absolute; top: 44px; *top: 42px; right: 0; line-height: 0; width: 145px; padding-top: 12px; *padding-top: 14px; display: none;}
+.user-center ul{ position: absolute; top: 44px; *top: 42px; right: 0; line-height: 0; width: 145px; padding-top: 12px; *padding-top: 14px; display: none; z-index: 10;}
 .user-center ul li{ width: 100%; font-size: 0; overflow: hidden; text-align: left;  border:1px solid #c8c8c8; border-bottom-color: #f3f3f3; border-top: 0;}
 .user-center ul .exit{ border-bottom:1px solid #c8c8c8;}
 .user-center ul li a{display: block; font-size: 14px; color: #505050; height: 38px; line-height: 38px; padding: 0 8px 0 55px; background: #fff url('../images/icon.png') 18px 6px no-repeat;}
@@ -335,7 +335,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .edit-content2 .input-div input{ float: left;}
 .edit-content2 .input-div .img-input{ width: 616px; margin-right: 20px;}
-.edit-content2 .input-div .img-btn{ width: 100px; height: auto; line-height: 34px; margin-top: 8px; background-color: #e70000; border: 0; color: #fff;}
+.edit-content2 .input-div .img-btn{ width: 100px; height: auto; line-height: 34px; margin-top: 8px; background-color: #e70000; border: 0; color: #fff; cursor: pointer;}
 
 .edit-box .edit-content2 textarea{ padding: 10px 20px; height: 120px;}
 .edit-box .edit-content2 .upload-img{ height: auto; border:none; margin: 0; padding: 0; width: 702px;}
@@ -359,7 +359,7 @@ div.flicking_con a.on{background-position:0 -21px}
 /* ouzhou
 ========================================================================== */
 .head-img,
-.head-details{ height: 400px; width: 100%; padding-bottom: 40px; position: relative;}
+.head-details{ height: 400px; width: 100%; padding-bottom: 40px;}
 
 .head-img,
 .Europe-bg{ background: transparent url('../images/Europe.jpg') no-repeat center top;}
@@ -376,14 +376,11 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
 
-/*.theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}
-.theme-font span{ background: transparent url('../images/dotted.png') no-repeat 0 -91px; padding-left: 62px;}*/
-
 /* waterfull
 --------------------------------------- */
 .water-list{ margin: 0 0 40px;}
-.water-list ul{ margin-left: -20px;}
-.water-list li{ float: left; width: 320px; *width: 318px; margin: 0 0 40px 20px; background-color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -webkit-box-shadow:0 3px 3px rgba(0, 0, 0, .1);  -moz-box-shadow:0 3px 3px rgba(0, 0, 0, .1); box-shadow:0 3px 3px rgba(0, 0, 0, .1); overflow: hidden; *border: 3px solid #e6e6e6; *border-width: 0 1px 3px 1px;}
+.water-list ul{ margin-left: -20px; *margin-left: -19px; font-size: 0;}
+.water-list li{ float: left; width: 320px; *width: 318px; margin: 0 0 40px 20px; *margin: 0 0 40px 19px; background-color: #fff; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -webkit-box-shadow:0 3px 3px rgba(0, 0, 0, .1);  -moz-box-shadow:0 3px 3px rgba(0, 0, 0, .1); box-shadow:0 3px 3px rgba(0, 0, 0, .1); overflow: hidden; *border: 3px solid #e6e6e6; *border-width: 0 1px 3px 1px;}
 .water-list li .item-img{ display: block; width: 320px; height: 280px;}
 .water-list li .item-img img{width: 100%; height: 100%;}
 .water-list li h4 a{ color: #505050; font-size: 18px; font-weight: normal; display: block; height: 24px; width: 100%; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
