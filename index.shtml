@@ -172,9 +172,28 @@
 								<span>中奖名单</span>
 							</h2>
 							<div class="content">
-								<a target="_blank" class="product-link" href="http://www.icbc.com.cn/ICBC/%E5%B9%BF%E5%91%8A%E9%A1%B5%E9%9D%A2/%E7%BD%91%E7%AB%99%E5%AE%A3%E4%BC%A0%E5%B9%BF%E5%91%8A%E9%A1%B5%E9%9D%A2/%E6%80%BB%E8%A1%8C%E5%B9%BF%E5%91%8A%E9%A1%B5%E9%9D%A2/2015/0112%E4%B8%AA%E4%BA%BA%E7%BB%93%E5%94%AE%E6%B1%87/0112%E4%B8%AA%E4%BA%BA%E7%BB%93%E5%94%AE%E6%B1%87.htm">
-									<img src="images/huodong.jpg" width="320" height="132" alt="个人结售汇汇率优惠活动">
-								</a>
+								<div class="topRec_List">
+							  		<dl>
+							        	<dd>中奖人姓名</dd>
+							        	<dd>手机号</dd>
+							        </dl>
+							        <div class="maquee">
+							            <ul>
+							                <li>
+							                    <div>1</div>
+							                    <div>王**</div>
+							                    <div>中了30元</div>
+							                    <div>2014/12/30 14:20</div>
+							                </li> 
+							                <li>
+							                    <div>2</div>
+							                    <div>王**</div>
+							                    <div>中了30元</div>
+							                    <div>2014/12/30 14:20</div>
+							                </li> 
+							            </ul>
+							        </div>
+							    </div>
 							</div>
 						</div>
 					</div>
@@ -261,5 +280,22 @@
 			});
 		}) 
 	</script>
+
+	<!-- 文字滚动 -->
+	<script type="text/javascript"> 
+		  function autoScroll(obj){  
+				$(obj).find("ul").animate({  
+					marginTop : "-39px"  
+				},500,function(){  
+					$(this).css({marginTop : "0px"}).find("li:first").appendTo(this);  
+				})  
+			}  
+			$(function(){  
+				setInterval('autoScroll(".maquee")',3000);
+				setInterval('autoScroll(".apple")',2000);
+				  
+			}) 
+			
+	</script> 
 </body>
 </html>
