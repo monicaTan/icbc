@@ -24,12 +24,11 @@
 								<div class="edit-content">
 									<div class="edit-content-inner">
 										<em>*</em>
-										<div class="a-list clearfix">
-											<a class="active" href="javascript:;">亚洲</a>
-											<a href="javascript:;">欧洲</a>
-											<a href="javascript:;">美洲</a>
-											<a href="javascript:;">大洋洲</a>
-											<a href="javascript:;">非洲</a>
+										<div class="a-list a-list2 clearfix">
+											<a class="active" href="javascript:;">我是最美风景</a>
+											<a href="javascript:;">最爱心中那一瞬</a>
+											<a href="javascript:;">舌尖上的全世界</a>
+											<a href="javascript:;">跨越地球去睡你</a>
 										</div>
 									</div>
 								</div>
