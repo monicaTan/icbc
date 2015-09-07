@@ -38,7 +38,7 @@
 									<li>
 										<div class="clearfix">
 											<a class="img-content" href="javascript:;">
-												<img src="images/list.jpg" width="210" height="126" />
+												<img src="images/list.jpg" width="320" height="190" />
 											</a>
 											<div class="list-description">
 												<h3>
@@ -60,25 +60,11 @@
 
 									<li>
 										<div class="clearfix">
-											<a class="img-content" href="javascript:;">
-												<img src="images/list.jpg" width="210" height="126" />
+											<a class="img-content" href="edit.shtml">
+												<img src="images/add.jpg" width="320" height="190" />
 											</a>
-											<div class="list-description">
-												<h3>
-													<a href="detail.shtml">【腌鱼的画】记得那一片宁静的海</a>
-												</h3>
-												<p class="summary">
-													如果平静是信仰的目的，那么我觉得我在库克找到了我的信仰。宁静的澙湖，明媚的阳光，淳朴快乐的库克人……过滤掉一切的不安与浮躁，是一个不会被惊醒的梦。
-												</p>
-												<p class="small-text clearfix">
-													<span class="icon-time">2015-09-15</span>
-													<span class="icon-pepole">20人</span>
-													<span class="icon-heart">219</span>
-													<span class="from">来自：大洋洲 版</span>
-												</p>
-											</div>
+											<div class="list-description">&nbsp;</div>
 										</div>
-										<div class="bottom-line1"></div>
 									</li>
 								</ul>
 							</div>
@@ -87,7 +73,7 @@
 									<li>
 										<div class="clearfix">
 											<a class="img-content" href="javascript:;">
-												<img src="images/list.jpg" width="210" height="126" />
+												<img src="images/list.jpg" width="320" height="190" />
 											</a>
 											<div class="list-description">
 												<h3 class="clearfix">
@@ -108,6 +94,15 @@
 											</div>
 										</div>
 										<div class="bottom-line1"></div>
+									</li>
+
+									<li>
+										<div class="clearfix">
+											<a class="img-content" href="edit.shtml">
+												<img src="images/add.jpg" width="320" height="190" />
+											</a>
+											<div class="list-description">&nbsp;</div>
+										</div>
 									</li>
 								</ul>
 							</div>

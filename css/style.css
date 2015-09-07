@@ -97,6 +97,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .hot-address li{ float: left; margin: -20px 0 0 20px; width: 320px;}
 .hot-address li a{ display: block; margin-top: 20px;}
 .bottom-line{ font-size: 0; line-height: 0; background-color:#dedddd; width: 100%; height:2px; margin: 40px 0;}
+.bottom-line-white{ font-size: 0; line-height: 0; width: 100%; height:2px; margin: 40px 0;}
 .hui-img{ padding-top: 40px;}
 
 /* left-bar
@@ -261,13 +262,13 @@ div.flicking_con a.on{background-position:0 -21px}
 .tab_menu li.current{color:#e70000;}
 .tab_menu .line-right{ border-right: 1px solid #505050;}
 .tab_box .hide{display:none;}
-.tab_box .list-content li .img-content { width: 355px; height: 240px;}
+.tab_box .list-content li .img-content { width: 320px; height: 190px;}
 
-.tab_box .list-description{ width: 625px;}
-.tab_box .list-description h3 a{ margin-top: 10px; height: 30px; line-height: 30px;}
+.tab_box .list-description{ width: 660px;}
+.tab_box .list-description h3 a{ height: 30px; line-height: 30px;}
 .tab_box .list-description h3 .title-limit{ width: 370px; float: left;}
 
-.tab_box .list-description h3 span{ display: block; width: 250px; float: right; margin-top: 10px;}
+.tab_box .list-description h3 span{ display: block; width: 250px; float: right;}
 .tab_box .list-description h3 span a{ font-size: 16px; width: 64px; height: 30px; line-height: 30px; margin: 0; padding-left: 35px; float: left; background: url('../images/dotted.png') no-repeat 0 -1559px;}
 .tab_box .list-description h3 span .remove{ background-position: 0 -1770px; color: #e70000;}
 
@@ -281,7 +282,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .tab_box  .list-description .small-text .icon-pepole{ background: url('../images/icon_05.png') no-repeat left center;}
 .tab_box  .list-description .small-text .icon-time{ background: url('../images/icon_03.png') no-repeat left center;}
 .tab_box  .list-description .small-text .icon-time2{ padding-right: 0; width: 200px;}
-.tab_box  .list-description .summary{ margin: 20px 0 40px; line-height: 30px; height: 90px;}
+.tab_box  .list-description .summary{ margin: 20px 0 20px; font-size: 15px; line-height: 30px; height: 90px;}
 .tab_box .tab-inner{ min-height: 400px; *height: 400px;}
 
 
@@ -423,6 +424,11 @@ div.flicking_con a.on{background-position:0 -21px}
 
 /* theme-activities
 ========================================================================== */
-.footer { font-size: 14px; color: #505050; text-align: right;}
+.footer { font-size: 0; color: #505050; text-align: left;}
 .footer .inner-module{ background-color: #f0f0f0; height: 80px; line-height: 80px; border-top: 1px solid #c8c8c8;}
 .footer .inner-module p{ padding: 0 20px;}
+.footer .inner-module p a,
+.footer .inner-module p span{ font-size: 14px; color: #505050;*float: left;}
+.footer .inner-module p a:hover{color: #e70000;}
+.footer .inner-module p span{ padding: 0 15px;}
+.footer .inner-module p .right{ padding: 0 0 0 15px; float: right;}
