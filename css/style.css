@@ -278,18 +278,18 @@ div.flicking_con a.on{background-position:0 -21px}
 ========================================================================== */
 .edit-box{ font-size: 20px; padding-top: 70px;}
 .edit-box i,
-.edit-box span,
+.edit-box .edit-title,
 .edit-box .edit-content2,
 .edit-box .edit-content{ display: block; float: left;}
 
 .edit-box i,
 .edit-content-inner em,
-.edit-box span{ height: 52px; line-height: 52px;}
+.edit-box .edit-title{ height: 52px; line-height: 52px;}
 
 .edit-box ul { background: url('../images/dian.png') repeat-y 25px top;}
 .edit-box ul li{ margin-bottom: 50px;}
 
-.edit-box span{padding-left: 10px; width: 120px;}
+.edit-box .edit-title{padding-left: 10px; width: 120px;}
 .edit-box .edit-content2{ padding-left: 34px; width: 782px;}
 .edit-box .edit-content{ width: 816px;}
 
@@ -314,7 +314,6 @@ div.flicking_con a.on{background-position:0 -21px}
 .edit-content2 .input-div .img-btn{ width: 100px; height: auto; line-height: 34px; margin-top: 8px; background-color: #c7000b; border: 0; color: #fff;}
 
 .edit-box .edit-content2 textarea{ padding: 10px 20px; height: 120px;}
-
 .edit-box .edit-content2 .upload-img{ height: auto; border:none; margin: 0; padding: 0; width: 702px;}
 
 .a-list a{ border:2px dashed #dadada; display: block; float: left; width: 125px; height: 48px; line-height: 48px; text-align: center; margin: 0 0 0 34px;}
