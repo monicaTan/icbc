@@ -36,8 +36,8 @@
 					<div class="mark-right">
 						<div class="clearfix">
 							<a class="target-addr" href="javascript:;">欧洲</a>
-							<a class="like" href="javascript:;">喜欢</a>
-							<a class="share" href="javascript:;">分享</a>
+							<a class="like" href="javascript:;">喜欢<em>120</em></a>
+							<a class="share" href="javascript:;">分享<em>456</em></a>
 						</div>
 					</div>
 				</div>
