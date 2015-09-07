@@ -360,12 +360,22 @@ div.flicking_con a.on{background-position:0 -21px}
 .head-details{ height: 400px; width: 100%; padding-bottom: 40px; position: relative;}
 
 .head-img,
-.Europe-bg{ background: transparent url('../images/ouzhou.jpg') no-repeat center top;}
+.Europe-bg{ background: transparent url('../images/Europe.jpg') no-repeat center top;}
+.Asia-bg{ background: transparent url('../images/Asia.jpg') no-repeat center top;}
+.America-bg{ background: transparent url('../images/America.jpg') no-repeat center top;}
+.Africa-bg{ background: transparent url('../images/Africa.jpg') no-repeat center top;}
+.Oceanica-bg{ background: transparent url('../images/Oceanica.jpg') no-repeat center top;}
+
+.Europe-bg,
+.Asia-bg,
+.America-bg,
+.Africa-bg,
+.Oceanica-bg{ font-size: 0;}
 
 .head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
 
-.theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}
-.theme-font span{ background: transparent url('../images/dotted.png') no-repeat 0 -91px; padding-left: 62px;}
+/*.theme-font{ width: 1000px; font-size: 50px; color: #fff; text-align: right; position: absolute; left: 50%; bottom: 190px; margin-left: -500px;}
+.theme-font span{ background: transparent url('../images/dotted.png') no-repeat 0 -91px; padding-left: 62px;}*/
 
 /* waterfull
 --------------------------------------- */
