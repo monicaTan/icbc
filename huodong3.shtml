@@ -12,7 +12,7 @@
 		<!-- top -->
 		<!--#include file="inc/nav.shtml"-->
 
-		<div class="head-regulation regulation3">
+		<div class="head-regulation regulation3" title="舌尖上的全世界">
 			<div class="inner-module">
 				<p>
 					<a href="edit-zhuti.shtml">编辑攻略</a>

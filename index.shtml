@@ -146,6 +146,7 @@
 												</p>
 											</div>
 										</div>
+										<div class="bottom-line1"></div>
 									</li>
 
 									<li>
@@ -231,10 +232,10 @@
 								<div class="ck-slide">
 									<ul class="ck-slide-wrapper">
 										<li>
-											<a target="_blank" href="http://www.icbc.com.cn/icbc/%e9%87%91%e8%9e%8d%e5%b8%82%e5%9c%ba%e4%b8%93%e5%8c%ba/%e4%ba%a7%e5%93%81%e6%9c%8d%e5%8a%a1/%e6%8a%95%e8%b5%84%e4%ba%a4%e6%98%93%e7%b1%bb%e4%ba%a7%e5%93%81/%e5%8d%b3%e6%9c%9f%e7%bb%93%e5%94%ae%e6%b1%87/default.htm"><img src="images/a-img.jpg" alt="即期结售汇" width="320" height="120"></a>
+											<a href="product.shtml"><img src="images/a-img.jpg" alt="即期结售汇" width="320" height="120"></a>
 										</li>
 										<li style="display:none">
-											<a target="_blank" href="wenda.shtml"><img src="images/b-img.jpg" alt="个人结售汇 业务知识问答" width="320" height="120"></a>
+											<a href="wenda.shtml"><img src="images/b-img.jpg" alt="个人结售汇 业务知识问答" width="320" height="120"></a>
 										</li>
 									</ul>
 									<a href="javascript:;" class="ctrl-slide ck-prev">上一张</a> <a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
@@ -265,7 +266,7 @@
 									<a href="huodong.shtml">
 										<img src="images/theme_07.jpg" width="490" height="160" />
 									</a>
-									<a class="theme-title" href="javascript:;">我是最美风景 ——9月21日-9月30日</a>
+									<a class="theme-title" href="huodong.shtml">我是最美风景 ——9月21日-9月30日</a>
 								</div>
 							</li>
 							<li>
@@ -273,7 +274,7 @@
 									<a href="huodong2.shtml">
 										<img src="images/theme_09.jpg" width="490" height="160" />
 									</a>
-									<a class="theme-title" href="javascript:;">最爱心中那一瞬 ——10月8日-10月18日</a>
+									<a class="theme-title" href="huodong2.shtml">最爱心中那一瞬 ——10月8日-10月18日</a>
 								</div>
 							</li>
 							<li>
@@ -281,7 +282,7 @@
 									<a href="huodong3.shtml">
 										<img src="images/theme_12.jpg" width="490" height="160" />
 									</a>
-									<a class="theme-title" href="javascript:;">舌尖上的全世界 ——10月19日-10月25日</a>
+									<a class="theme-title" href="huodong3.shtml">舌尖上的全世界 ——10月19日-10月25日</a>
 								</div>
 							</li>
 							<li>
@@ -289,7 +290,7 @@
 									<a href="huodong4.shtml">
 										<img src="images/theme_13.jpg" width="490" height="160" />
 									</a>
-									<a class="theme-title" href="javascript:;">跨越地球去睡你 ——10月26日-10月31日</a>
+									<a class="theme-title" href="huodong4.shtml">跨越地球去睡你 ——10月26日-10月31日</a>
 								</div>
 							</li>
 						</ul>
