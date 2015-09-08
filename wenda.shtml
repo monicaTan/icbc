@@ -24,8 +24,8 @@
 				<div class="slide-contaimner">
 					<h4 class="warning-color">第一部分 产品知识</h4>
 
-						<div class="vtitle"><em class="v-icon v02"></em>1.什么是结汇？</div>
-						<div class="vcon">
+						<div class="vtitle"><em class="v-icon v01"></em>1.什么是结汇？</div>
+						<div class="vcon" style="display: none;">
 							<ul class="vconlist clearfix">
 								<li>
 									<p>
@@ -786,7 +786,8 @@
 			$('.vtitle').click(function(){
 				var _self = $(this);
 				var j = $('.vtitle').index(_self);
-				if( tabs_i == j ) return false; tabs_i = j;
+				//if( tabs_i == j ) return false; 
+				tabs_i = j;
 				$('.vtitle em').each(function(e){
 					if(e==tabs_i){
 						$('em',_self).removeClass('v01').addClass('v02');
@@ -794,7 +795,13 @@
 						$(this).removeClass('v02').addClass('v01');
 					}
 				});
-				$('.vcon').slideUp().eq(tabs_i).slideDown();
+				if (_self.next('.vcon').is(':hidden')) {
+					_self.next('.vcon').slideDown();
+					_self.siblings().next('.vcon').slideUp();
+					_self.parent('.slide-contaimner').siblings().find('.vtitle').next('.vcon').slideUp();
+				}else{
+					_self.next('.vcon').slideUp();
+				}
 			});
 		}) 
 	</script>

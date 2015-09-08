@@ -424,8 +424,7 @@ div.flicking_con a.on{background-position:0 -21px}
 /* wenda
 ========================================================================== */
 .warning-color{ color: #e70000;}
-.slide-module{ margin-bottom: 20px;}
-.slide-contaimner h4{ font-size: 20px; font-weight: normal; padding-bottom: 20px; border-bottom:1px solid #c8c8c8;}
+.slide-contaimner h4{ font-size: 20px; font-weight: normal; padding-bottom: 20px; margin-top: 20px; border-bottom:1px solid #c8c8c8;}
 .v-icon{float:right; width:22px; height:20px; overflow:hidden; background:url('../images/vicon.png') no-repeat; display:inline-block; margin-top:-5px; margin-bottom:-5px;}
 .v01{background-position:0 0;}
 .v02{background-position:0 -33px;}
@@ -434,7 +433,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .vconlist{ border-bottom:1px solid #c8c8c8;}
 .vconlist li,
 .attention{ line-height:30px; padding: 10px 0 10px 40px; display:block; font-size:14px; color:#787878;}
-.attention{ padding: 10px 0 10px 0;}
+.attention{ padding: 10px 0 10px 0; margin-bottom: 40px;}
 .vconlist li p{ margin-bottom: 10px;}
 
 /* footer
