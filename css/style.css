@@ -231,11 +231,13 @@ div.flicking_con a.on{background-position:0 -21px}
 ========================================================================== */
 .head-profile{ text-align: center; height: 285px; width: 100%; padding-top: 115px; background: url('../images/bg4.jpg') no-repeat center top; background-size: auto 100%;}
 
+.regulation0,
 .regulation1,
 .regulation2,
 .regulation3,
 .regulation4{ text-align: center; height: 285px; width: 100%; padding-top: 115px; background-size: auto 100%;}
 
+.regulation0{ background: url('../images/bg55.jpg') no-repeat center top;}
 .regulation1{ background: url('../images/bg5.jpg') no-repeat center top;}
 .regulation2{ background: url('../images/bg6.jpg') no-repeat center top;}
 .regulation3{ background: url('../images/bg7.jpg') no-repeat center top;}
@@ -248,6 +250,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .head-profile p a { font-size: 16px; color: #fff; display: block; width: 128px; height: 32px; line-height: 32px; border:1px solid #fff; border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; margin: 0 auto;}
 
 .head-regulation p{ margin-top: 190px;}
+.regulation0 p { margin-top: 0;}
 .head-regulation p a{ font-size: 28px;color: #fff; display: block;  width: 175px; height: 44px; line-height: 44px; border:1px solid #fff; border-radius: 22px; -moz-border-radius: 22px; -webkit-border-radius: 22px; margin: 0 auto;}
 
 .head-regulation h1{ font-size: 50px; color: #fff; font-weight: normal; margin: 45px auto 90px;}
@@ -419,6 +422,11 @@ div.flicking_con a.on{background-position:0 -21px}
 .warning-text,
 .small-text{ font-size: 14px;}
 .warning-text{ font-size: 14px; color: #e70000;}
+
+.active-text{ border-top: 1px solid #c8c8c8; border-bottom: 1px solid #c8c8c8; padding: 20px 0; margin-bottom: 40px;}
+.active-text dl{ font-size: 16px; color: #787878; line-height: 36px;}
+.active-text dl dt{ float: left;}
+.active-text dl dd{ margin-left: 50px;}
 
 /* ming dan
 ========================================================================== */

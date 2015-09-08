@@ -152,7 +152,7 @@
 			});
 			$('.edit-box ul li').mouseout(function(){
 				$(this).children('i').removeClass('focus');
-				$(this).parent('ul').children('li').eq(0).children('i').addClass('focus');
+				//$(this).parent('ul').children('li').eq(0).children('i').addClass('focus');
 			});
 
 		}) 
