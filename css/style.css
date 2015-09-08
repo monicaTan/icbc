@@ -230,7 +230,15 @@ div.flicking_con a.on{background-position:0 -21px}
 ========================================================================== */
 .head-profile{ text-align: center; height: 285px; width: 100%; padding-top: 115px; background: url('../images/bg4.jpg') no-repeat center top; background-size: auto 100%;}
 
-.head-regulation{ text-align: center; height: 285px; width: 100%; padding-top: 115px; background: url('../images/bg5.jpg') no-repeat center top; background-size: auto 100%;}
+.regulation1,
+.regulation2,
+.regulation3,
+.regulation4{ text-align: center; height: 285px; width: 100%; padding-top: 115px; background-size: auto 100%;}
+
+.regulation1{ background: url('../images/bg5.jpg') no-repeat center top;}
+.regulation2{ background: url('../images/bg6.jpg') no-repeat center top;}
+.regulation3{ background: url('../images/bg7.jpg') no-repeat center top;}
+.regulation4{ background: url('../images/bg8.jpg') no-repeat center top;}
 
 .head-profile .profile-img{ display: block; width: 148px; height: 148px; overflow: hidden; margin: 0 auto 20px; border: 1px solid #eee; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;}
 
@@ -238,6 +246,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 .head-profile p a { font-size: 16px; color: #fff; display: block; width: 128px; height: 32px; line-height: 32px; border:1px solid #fff; border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; margin: 0 auto;}
 
+.head-regulation p{ margin-top: 190px;}
 .head-regulation p a{ font-size: 28px;color: #fff; display: block;  width: 175px; height: 44px; line-height: 44px; border:1px solid #fff; border-radius: 22px; -moz-border-radius: 22px; -webkit-border-radius: 22px; margin: 0 auto;}
 
 .head-regulation h1{ font-size: 50px; color: #fff; font-weight: normal; margin: 45px auto 90px;}
@@ -402,7 +411,8 @@ div.flicking_con a.on{background-position:0 -21px}
 ========================================================================== */
 .regulation-content{ margin: 40px auto 0;}
 .regulation { text-align: center; font-size: 20px; color: #505050;}
-.regulation p{ line-height: 60px; border-top: 1px solid #c8c8c8;}
+.regulation p{ line-height: 30px; padding: 15px 0; border-top: 1px solid #c8c8c8;}
+.regulation .more-line{ line-height: 40px;}
 .regulation .headline{ color: #e70000; font-size: 24px; font-weight: bold;}
 .warning-text,
 .small-text{ font-size: 14px;}
