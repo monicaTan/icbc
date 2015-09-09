@@ -801,6 +801,7 @@
 					_self.parent('.slide-contaimner').siblings().find('.vtitle').next('.vcon').slideUp();
 				}else{
 					_self.next('.vcon').slideUp();
+					_self.find('em').removeClass('v02').addClass('v01');
 				}
 			});
 		}) 
