@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<link rel="stylesheet" type="text/css" href="kindeditor-4.1.10/themes/default/default.css">
+	<link rel="stylesheet" type="text/css" href="css/red.css">
 	<!--#include file="inc/common.shtml"--> 
 </head>
 <body>
@@ -25,11 +26,32 @@
 									<div class="edit-content-inner">
 										<em>*</em>
 										<div class="a-list clearfix">
-											<a class="active" href="javascript:;">亚洲</a>
-											<a href="javascript:;">欧洲</a>
-											<a href="javascript:;">美洲</a>
-											<a href="javascript:;">大洋洲</a>
-											<a href="javascript:;">非洲</a>
+											<div class="clearfix">
+												<label class="label-check">
+													<input type="radio" name="line-radio" checked>
+											  		<label>亚洲</label>
+												</label>
+
+											  	<label class="label-check">
+											  		<input type="radio" name="line-radio" >
+											  		<label>欧洲</label>
+											  	</label>
+
+											  	<label class="label-check">
+													<input type="radio" name="line-radio">
+											  		<label>美洲</label>
+												</label>
+
+											  	<label class="label-check">
+											  		<input type="radio" name="line-radio">
+											  		<label>大洋洲</label>
+											  	</label>
+
+											  	<label class="label-check">
+											  		<input type="radio" name="line-radio">
+											  		<label>非洲</label>
+											  	</label>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -117,6 +139,7 @@
 	<script type="text/javascript" src="js/placeholder.js"></script><!-- placeholder兼容文件 -->
 	<script charset="utf-8" src="kindeditor-4.1.10/kindeditor-min.js"></script><!-- 编辑器 -->
 	<script charset="utf-8" src="kindeditor-4.1.10/lang/zh_CN.js"></script><!-- 编辑器 -->
+	<script type="text/javascript" src="js/icheck.js"></script><!-- 单选框 -->
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -147,14 +170,26 @@
 
 			//获取焦点
 
-			//$('.edit-box ul li:eq(0)').children('i').addClass('focus');
 			$('.edit-box ul li').mouseover(function(){
 				$(this).children('i').addClass('focus');
 			});
 			$('.edit-box ul li').mouseout(function(){
 				$(this).children('i').removeClass('focus');
-				//$(this).parent('ul').children('li').eq(0).children('i').addClass('focus');
 			});
+
+			//自定义单选框
+			$('.a-list input').each(function(){
+	          var self = $(this),
+	            label = self.next(),
+	            label_text = label.text();
+
+	          label.remove();
+	          self.iCheck({
+	            checkboxClass: 'icheckbox_line-red',
+	            radioClass: 'iradio_line-red',
+	            insert: '<div class="icheck_line-icon"></div>' + label_text
+	          });
+	        });
 		}) 
 	</script>
 

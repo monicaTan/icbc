@@ -24,11 +24,28 @@
 								<div class="edit-content">
 									<div class="edit-content-inner">
 										<em>*</em>
-										<div class="a-list a-list2 clearfix">
-											<a class="active" href="javascript:;">我是最美风景</a>
-											<a href="javascript:;">最爱心中那一瞬</a>
-											<a href="javascript:;">舌尖上的全世界</a>
-											<a href="javascript:;">跨越地球去睡你</a>
+										<div class="a-list2 clearfix">
+											<div class="clearfix">
+												<label class="label-check">
+													<input type="radio" name="line-radio" checked>
+											  		<label>我是最美风景</label>
+												</label>
+
+											  	<label class="label-check">
+											  		<input type="radio" name="line-radio" >
+											  		<label>最爱心中那一瞬</label>
+											  	</label>
+
+											  	<label class="label-check">
+													<input type="radio" name="line-radio">
+											  		<label>舌尖上的全世界</label>
+												</label>
+
+											  	<label class="label-check">
+											  		<input type="radio" name="line-radio">
+											  		<label>跨越地球去睡你</label>
+											  	</label>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -116,6 +133,7 @@
 	<script type="text/javascript" src="js/placeholder.js"></script><!-- placeholder兼容文件 -->
 	<script charset="utf-8" src="kindeditor-4.1.10/kindeditor-min.js"></script><!-- 编辑器 -->
 	<script charset="utf-8" src="kindeditor-4.1.10/lang/zh_CN.js"></script><!-- 编辑器 -->
+	<script type="text/javascript" src="js/icheck.js"></script><!-- 单选框 -->
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -146,14 +164,26 @@
 
 			//获取焦点
 
-			//$('.edit-box ul li:eq(0)').children('i').addClass('focus');
 			$('.edit-box ul li').mouseover(function(){
 				$(this).children('i').addClass('focus');
 			});
 			$('.edit-box ul li').mouseout(function(){
 				$(this).children('i').removeClass('focus');
-				//$(this).parent('ul').children('li').eq(0).children('i').addClass('focus');
 			});
+
+			//自定义单选框
+			$('.a-list input').each(function(){
+	          var self = $(this),
+	            label = self.next(),
+	            label_text = label.text();
+
+	          label.remove();
+	          self.iCheck({
+	            checkboxClass: 'icheckbox_line-red',
+	            radioClass: 'iradio_line-red',
+	            insert: '<div class="icheck_line-icon"></div>' + label_text
+	          });
+	        });
 
 		}) 
 	</script>
