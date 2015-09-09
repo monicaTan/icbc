@@ -25,27 +25,25 @@
 									<div class="edit-content-inner">
 										<em>*</em>
 										<div class="a-list2 clearfix">
-											<div class="clearfix">
-												<label class="label-check">
-													<input type="radio" name="line-radio" checked>
-											  		<label>我是最美风景</label>
-												</label>
+											<label class="label-check">
+												<input type="radio" name="line-radio" checked>
+										  		<label>我是最美风景</label>
+											</label>
 
-											  	<label class="label-check">
-											  		<input type="radio" name="line-radio" >
-											  		<label>最爱心中那一瞬</label>
-											  	</label>
+										  	<label class="label-check">
+										  		<input type="radio" name="line-radio" >
+										  		<label>最爱心中那一瞬</label>
+										  	</label>
 
-											  	<label class="label-check">
-													<input type="radio" name="line-radio">
-											  		<label>舌尖上的全世界</label>
-												</label>
+										  	<label class="label-check">
+												<input type="radio" name="line-radio">
+										  		<label>舌尖上的全世界</label>
+											</label>
 
-											  	<label class="label-check">
-											  		<input type="radio" name="line-radio">
-											  		<label>跨越地球去睡你</label>
-											  	</label>
-											</div>
+										  	<label class="label-check">
+										  		<input type="radio" name="line-radio">
+										  		<label>跨越地球去睡你</label>
+										  	</label>
 										</div>
 									</div>
 								</div>

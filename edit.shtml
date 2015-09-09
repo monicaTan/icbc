@@ -26,32 +26,30 @@
 									<div class="edit-content-inner">
 										<em>*</em>
 										<div class="a-list clearfix">
-											<div class="clearfix">
-												<label class="label-check">
-													<input type="radio" name="line-radio" checked>
-											  		<label>亚洲</label>
-												</label>
+											<label class="label-check">
+												<input type="radio" name="line-radio" checked>
+										  		<label>亚洲</label>
+											</label>
 
-											  	<label class="label-check">
-											  		<input type="radio" name="line-radio" >
-											  		<label>欧洲</label>
-											  	</label>
+										  	<label class="label-check">
+										  		<input type="radio" name="line-radio" >
+										  		<label>欧洲</label>
+										  	</label>
 
-											  	<label class="label-check">
-													<input type="radio" name="line-radio">
-											  		<label>美洲</label>
-												</label>
+										  	<label class="label-check">
+												<input type="radio" name="line-radio">
+										  		<label>美洲</label>
+											</label>
 
-											  	<label class="label-check">
-											  		<input type="radio" name="line-radio">
-											  		<label>大洋洲</label>
-											  	</label>
+										  	<label class="label-check">
+										  		<input type="radio" name="line-radio">
+										  		<label>大洋洲</label>
+										  	</label>
 
-											  	<label class="label-check">
-											  		<input type="radio" name="line-radio">
-											  		<label>非洲</label>
-											  	</label>
-											</div>
+										  	<label class="label-check">
+										  		<input type="radio" name="line-radio">
+										  		<label>非洲</label>
+										  	</label>
 										</div>
 									</div>
 								</div>
