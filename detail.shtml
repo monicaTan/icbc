@@ -47,15 +47,15 @@
 		<div class="main">
 			<div class="inner-module details-grey">
 				<div class="details-container clearfix">
-					<div class="details-left-bar">
-						<div class="block-module">
-							<h2>攻略路线：<span id="line-t"></span></h2>
+					<div class="details-left-bar" id="contentLeft">
+						<div class="block-module item" id="line-t">
+							<h2>攻略路线：</h2>
 							<div class="travel-line">
 								上海 — 巴黎 — 巴黎歌剧院 — 香榭丽舍大道 — 埃菲尔铁塔 — 巴士底 — 巴黎圣母院 — 尼斯 — 北京
 							</div>
 						</div>
-						<div class="block-module">
-							<h2>攻略记录：<span id="record-t"></span></h2>
+						<div class="block-module item" id="record-t">
+							<h2>攻略记录：</h2>
 							<div class="travel-record">
 								<p>
 									从小每去一个地方之前一定要看数篇攻略，自己写还是头一回。早就和男票商量好去欧洲的事，有些许期待，紧张和小兴奋。忙过惨绝人寰的大四上学期，结束了大学最后的考试，结束了美研申请，结束了事务所实习，好像一切的一切都只为腾出这美好的几个月，来实现这次大计划。
@@ -72,8 +72,8 @@
 								</p>
 							</div>
 						</div>
-						<div class="block-module">
-							<h2>旅程总结：<span id="summary-t"></span></h2>
+						<div class="block-module item" id="summary-t">
+							<h2>旅程总结：</h2>
 							<div>
 								<p>
 									能看到这的果然都是真爱！！谢谢你们能耐心的看完。这次欧洲之行大概是我人生中最最开心最最难忘的一段经历了。世界这么大，每一处地方都要自己用心去体验才会有不一般的感受，只有自己不断的去做功课，diy路线行程，才能脑补自己对每一个地方的了解。虽然过程繁琐，有时候会很累，但是美景带来的快乐是用钱都买不到的。最后，希望每个驴友都能在对的时间遇到对的人，你带着TA，TA带着钱，任性的走遍全世界～
@@ -82,7 +82,7 @@
 						</div>
 					</div>
 					<div class="details-right-bar">
-						<div class="right-nav">
+						<div class="right-nav" id="menu">
 							<ul>
 								<li>
 									<h4>攻略目录</h4>
@@ -107,6 +107,7 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script><!-- 目录导航 -->
 	<script type="text/javascript">
 		$(document).ready(function(){
 
@@ -144,9 +145,9 @@
 
 			//攻略目录
 
-			$('.right-nav ul > li > a').click(function(){
-				$(this).addClass('current').parent('li').siblings().children().removeClass('current');
-			})
+			// $('.right-nav ul > li > a').click(function(){
+			// 	$(this).addClass('current').parent('li').siblings().children().removeClass('current');
+			// })
 			 
 		}) 
 	</script>

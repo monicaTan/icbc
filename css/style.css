@@ -199,11 +199,8 @@ div.flicking_con a.on{background-position:0 -21px}
 .right-nav .right3 .current,
 .right-nav .right3 a:hover{ background-position: 0 -1078px;}
 
-#line-t,
-#record-t,
-#summary-t{ position: absolute; top: -70px; left: 0; z-index: 0; display: block; width: 0; height: 0;}
-#record-t{ top: -150px;}
-
+#summary-t{ *height: 500px; min-height: 500px;}
+.details-left-bar .item{ *height: 150px; min-height: 150px;}
 .details-right-bar .navFix{ left: 50%; margin-left:330px; top: 68px; *top: 10px; background-color: #f0f0f0; z-index: 6;}
 
 
