@@ -208,30 +208,6 @@
 					});
 				});
 			});
-			K('#image2').click(function() {
-				editor.loadPlugin('image', function() {
-					editor.plugin.imageDialog({
-						showLocal : false,
-						imageUrl : K('#url2').val(),
-						clickFn : function(url, title, width, height, border, align) {
-							K('#url2').val(url);
-							editor.hideDialog();
-						}
-					});
-				});
-			});
-			K('#image3').click(function() {
-				editor.loadPlugin('image', function() {
-					editor.plugin.imageDialog({
-						showRemote : false,
-						imageUrl : K('#url3').val(),
-						clickFn : function(url, title, width, height, border, align) {
-							K('#url3').val(url);
-							editor.hideDialog();
-						}
-					});
-				});
-			});
 		});
 	</script>
 
