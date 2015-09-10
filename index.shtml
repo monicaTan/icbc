@@ -42,22 +42,32 @@
 							<li>
 								<a href="javascript:;">
 									<img src="images/zhou_03.jpg" width="320" height="260" alt="亚洲">
+									<div class="opcity-bg"></div>
+									<span>亚洲</span>
 								</a>
 							</li>
 							<li>
 								<a href="ouzhou.shtml">
 									<img src="images/zhou_04.jpg" width="320" height="120" alt="欧洲">
+									<div class="opcity-bg"></div>
+									<span>欧洲</span>
 								</a>
 								<a href="javascript:;">
 									<img src="images/zhou_10.jpg" width="320" height="120"  alt="大洋洲">
+									<div class="opcity-bg"></div>
+									<span>大洋洲</span>
 								</a>
 							</li>
 							<li>
 								<a href="javascript:;">
 									<img src="images/zhou_06.jpg" width="320" height="120" alt="美洲">
+									<div class="opcity-bg"></div>
+									<span>美洲</span>
 								</a>
 								<a href="javascript:;">
 									<img src="images/zhou_12.jpg" width="320" height="120"  alt="非洲">
+									<div class="opcity-bg"></div>
+									<span>非洲</span>
 								</a>
 							</li>
 						</ul>
@@ -338,6 +348,17 @@
 			$('.ck-slide').ckSlide({
 				autoPlay: true
 			});
+
+
+			//主题
+
+			$('.hot-address li a').mouseover(function(){
+				$(this).children().not('img').stop().animate({opacity:0});
+			});
+			$('.hot-address li a').mouseout(function(){
+				$(this).children().not('img').stop().animate({opacity:1});
+			});
+			
 		}) 
 	</script>
 
