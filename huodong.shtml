@@ -24,7 +24,7 @@
 			<div class="inner-module">
 				<div class="regulation-content">
 					<h2 class="title clearfix">
-						<span>一、活动内容</span>
+						<span><img class="title-icon" src="images/huo_03.png">活动内容</span>
 					</h2>
 					<div class="regulation">
 						<p class="headline">活动时间：</p>
@@ -37,7 +37,7 @@
 						<p class="small-text" style="margin-bottom: 40px; border-bottom: 1px solid #c8c8c8;">本活动最终解释权归中国工行银行所有。</p>
 					</div>
 					<h2 class="title clearfix">
-						<span>二、活动细则</span>
+						<span><img class="title-icon" src="images/huo_06.png">活动细则</span>
 					</h2>
 					<div class="active-text">
 						<dl class="clearfix">
@@ -78,7 +78,7 @@
 						</dl>
 					</div>
 					<h2 class="title clearfix">
-						<span>三、其他事项</span>
+						<span><img class="title-icon" src="images/huo_08.png">其他事项</span>
 					</h2>
 					<div class="active-text" style="border-bottom:0;">
 						<dl class="clearfix">

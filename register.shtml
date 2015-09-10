@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="bg-page register-bg">
-		<div class="form-container">
+		<div class="form-container form-register">
 			<div class="form-content">
 				<form>
 					<h3>马上注册，即可参与上传攻略，赢大奖！</h3>

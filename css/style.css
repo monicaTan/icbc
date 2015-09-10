@@ -170,6 +170,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .mark-right .share{ border-right: 1px solid #f3f3f3; background: url('../images/dotted.png') no-repeat 18px -526px;}
 .mark-right .target-addr{ background: url('../images/dotted.png') no-repeat 18px -352px; width: 78px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
 .mark-right .like{  background: url('../images/dotted.png') no-repeat 18px -442px;}
+.mark-right .like.active{  background-position: 18px -2195px;}
 
 .details-container{ position: relative; z-index: 1;}
 .details-left-bar{ float: left; width: 720px; padding-top: 20px;}
@@ -214,6 +215,8 @@ div.flicking_con a.on{background-position:0 -21px}
 .register-bg{ background: url('../images/bg2.jpg') no-repeat center top; background-size: auto 100%;}
 .login-bg{ background: url('../images/bg3.jpg') no-repeat center top; background-size: auto 100%;}
 .form-container{ width: 500px; margin: 0 auto; padding-top: 80px;}
+.form-register{ width: 500px; margin: 0 auto; padding-top: 40px;}
+.form-register .form-group .btn-mar{ margin-top: 10px;}
 .form-content{ background-color: #fff; padding: 20px 50px 15px;}
 .form-content h3{ font-size: 16px; color: #505050; padding-bottom: 5px;}
 .form-group { padding-top: 15px; position: relative;}
@@ -229,7 +232,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .small-notice2 .back{ float: right; color: #787878;}
 .Immediately{ margin-top: 60px;}
 .error,
-.form-small { color: #e70000; font-size: 14px; text-align: right; margin-top: 5px; display: block;}
+.form-small { color: #e70000; font-size: 13px; text-align: right; margin-top: 5px; display: block;}
 .form-small { color: #787878;}
 
 .icon-email {display: block; margin: 15px auto 20px; width: 60px; height: 30px; background: url('../images/dotted.png') no-repeat left -1370px;}
@@ -450,6 +453,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .active-text dl{ font-size: 16px; color: #787878; line-height: 36px;}
 .active-text dl dt{ float: left;}
 .active-text dl dd{ margin-left: 50px;}
+.title-icon{ margin-right: 10px;}
 
 /* ming dan
 ========================================================================== */
