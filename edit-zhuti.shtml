@@ -170,7 +170,7 @@
 			});
 
 			//自定义单选框
-			$('.a-list input').each(function(){
+			$('.a-list2 input').each(function(){
 	          var self = $(this),
 	            label = self.next(),
 	            label_text = label.text();
@@ -266,6 +266,13 @@
 				editor.html('');
 			});
 		});
+	</script>
+	<script type="text/javascript">
+		$(function(){
+		 $("#travel_cover").change(function(){  // 当 id 为 file 的对象发生变化时
+		         $(".img-input").val($("#travel_cover").val());  //将 #file 的值赋给 #a
+		 })
+		})
 	</script>
 </body>
 </html>
