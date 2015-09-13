@@ -84,11 +84,19 @@
 									<div class="edit-content-inner">
 										<em>*</em>
 										<div class="input-div">
-											<div class="clearfix">
+											<!-- <div class="clearfix">
 												<input class="img-input" type="text" id="url1" placeholder="上传一张封面图，图片大小小于2M" value="" />
 												<input class="img-btn" type="button" id="image1" value="选择图片" />
-											</div>
+											</div> -->
+
+											<div class="clearfix">
+							                    <input type="text" value="" placeholder="上传一张封面图，图片大小小于2M" id="url1" class="img-input">
+							                    <div class="input file optional travel_cover">选择文件
+							                    	<input type="file" id="travel_cover" name="travel[cover]" placeholder="填写路线，例如：北京&mdash;巴厘岛&mdash;大溪地&mdash;北京" class="file optional" />
+							                    </div>
+							                 </div>
 										</div>
+
 									</div>
 								</div>
 							</li>
@@ -247,6 +255,13 @@
 				editor.html('');
 			});
 		});
+	</script>
+	<script type="text/javascript">
+		$(function(){
+		 $("#travel_cover").change(function(){  // 当 id 为 file 的对象发生变化时
+		         $(".img-input").val($("#travel_cover").val());  //将 #file 的值赋给 #a
+		 })
+		})
 	</script>
 </body>
 </html>
