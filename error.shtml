@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的资料</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<style type="text/css">
+		.error-page{ text-align: center; padding-top: 150px; color: #666;}
+		.error-page p{margin-top: 40px; font-size: 20px; line-height: 1.6;}
+		a{color: #e70000; text-decoration: none;}
+	</style>
+</head>
+<body>
+	<div class="error-page">
+		<img src="images/error.png" width="128" height="128">
+		<p>出问题了？程序猿正在努力解决问题中...<br/>先去<a href="/">首页</a>看看吧！！！</p>
+	</div>
+</body>
+</html>
