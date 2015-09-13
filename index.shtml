@@ -179,6 +179,7 @@
 												</p>
 											</div>
 										</div>
+										<div class="bottom-line1"></div>
 									</li>
 								</ul>
 							</div>
@@ -359,6 +360,9 @@
 			$('.hot-address li a').mouseout(function(){
 				$(this).children().not('img').stop().animate({opacity:1});
 			});
+
+			//清楚border
+			$('.left-bar .list-content > li:last-child .bottom-line1').addClass('line-clear');
 			
 		}) 
 	</script>
