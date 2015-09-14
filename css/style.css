@@ -282,7 +282,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .form-row label em{ font-style: normal; color: #e70000; font-size: 24px; vertical-align: middle; margin-right: 10px; line-height: 1;}
 .form-row input{ float: left; width: 615px; padding: 9px 10px; *padding: 10px 10px; border: 1px solid #ededed; background-color: #fff; font-size: 16px; color: #505050;}
 .form-title{ color: #505050; font-size: 28px; font-weight: normal; margin: 40px 0;}
-.form-row .btn-save{ width: 156px; background-color: #e70000; color: #fff; margin: 40px 0 80px 721px; padding: 8px 0; border:0; cursor: pointer;}
+.form-row .btn-save{ width: 156px; font-size: 18px; background-color: #e70000; color: #fff; margin: 40px 0 80px 721px; padding: 8px 0; border:0; cursor: pointer;}
 .form-row .btn-right{ float: right;}
 
 /* my-travel
@@ -410,7 +410,7 @@ div.flicking_con a.on{background-position:0 -21px}
 /* ouzhou
 ========================================================================== */
 .head-img,
-.head-details{ height: 400px; width: 100%; padding-bottom: 40px;}
+.head-details{ height: 400px; width: 100%; padding-bottom: 30px;}
 
 .head-img,
 .Europe-bg{ background: transparent url('../images/Europe.jpg') no-repeat center top;}
@@ -420,6 +420,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .Oceanica-bg{ background: transparent url('../images/Oceanica.jpg') no-repeat center top;}
 .wenda-bg{ background: transparent url('../images/wenda.jpg') no-repeat center top;}
 .jieshou-bg{ background: transparent url('../images/banner6.jpg') no-repeat center top;}
+.name-bg{ background: transparent url('../images/name.jpg') no-repeat center top;}
 
 .Europe-bg,
 .Asia-bg,
@@ -427,7 +428,8 @@ div.flicking_con a.on{background-position:0 -21px}
 .Africa-bg,
 .Oceanica-bg,
 .wenda-bg,
-.jieshou-bg{ font-size: 0;}
+.jieshou-bg,
+.name-bg{ font-size: 0;}
 
 .head-details{ background: transparent url('../images/img2.jpg') no-repeat center top;}
 
@@ -514,6 +516,22 @@ div.flicking_con a.on{background-position:0 -21px}
 .product-introduce dl dt{float: left;}
 .product-introduce dl dd{margin-left: 15px; color: #505050;}
 .product-introduce dl dd span{ color: #787878;}
+
+
+
+/* name-list
+========================================================================== */
+.name-list{ text-align: left; margin-bottom: 40px;}
+.name-list h1{ background:url('../images/name0.jpg') no-repeat top left; height: 63px; line-height: 63px; color: #fff; font-size: 28px; font-weight: normal; padding-left: 50px; margin-bottom: 20px;}
+.name-content{ background-color: #f0f0f0; padding: 0 0 40px;}
+.left-bar{ float: left; width: 499px; border-right: 1px solid #e3e3e3;}
+.right-bar{ float: right; width: 50%;}
+.name-list tr th,
+.name-list tr td{ padding: 20px 0 20px 50px; font-weight: normal; line-height: 1;}
+.name-list tr th{ border-bottom: 2px solid #e3e3e3; background-color:#e70000; color: #fff; font-size: 18px;}
+.name-list tr td{ border-bottom: 2px solid #e3e3e3;}
+
+
 
 
 /* footer
