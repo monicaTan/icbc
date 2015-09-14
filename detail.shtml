@@ -39,6 +39,7 @@
 							<a class="like" href="javascript:;">喜欢<em>120</em></a>
 							<!-- class="like active"为红色状态 -->
 							<a class="share" href="javascript:;">分享<em>456</em></a>
+							<!-- class="share active"为红色状态 -->
 						</div>
 					</div>
 				</div>
