@@ -4,6 +4,13 @@ body{ line-height: 1;}
 .wrap-grey{ background-color: #f0f0f0;}
 .right{ float: right;}
 .left{ float: left;}
+/*gotop*/
+.cbbfixed {position: fixed;right: 40px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;}
+.cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #e70000;}
+.cbbfixed .gotop {transition: background-color ease .3s;margin-top: 1px;}
+.cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url("../images/side-icon02.png");}
+.cbbfixed .gotop:hover {background-color:#dddddd;}
+.cbbfixed .cweixin {display: none;}
 
 /* nav
 ========================================================================== */
