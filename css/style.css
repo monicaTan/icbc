@@ -204,7 +204,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .details-left-bar .travel-line{ font-size: 18px; color: #646464; padding-bottom: 40px; border-bottom: 1px solid #c8c8c8; line-height: 30px;}
 .details-left-bar p{ word-break: break-all; font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 20px;}
 .details-left-bar p{ word-break: break-all; font-size: 14px; line-height: 30px; color: #646464; text-align: justify; padding-bottom: 20px;}
-.details-left-bar .join{ text-align: right;}
+.details-left-bar .join{ text-align: right; padding-top: 20px;}
 .details-left-bar .join .btn{ text-align: center; display: block;width: 100px; height: 36px; line-height: 36px; color: #fff; font-size: 14px; background-color: #e70000;}
 .travel-record{ border-bottom: 1px solid #c8c8c8;}
 .right-nav { padding-top: 50px; *width: 0px;}
