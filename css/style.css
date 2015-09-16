@@ -454,7 +454,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .Oceanica-bg{ background: transparent url('../images/Oceanica.jpg') no-repeat center top;}
 .wenda-bg{ background: transparent url('../images/wenda.jpg') no-repeat center top;}
 .jieshou-bg{ background: transparent url('../images/banner6.jpg') no-repeat center top;}
-.name-bg{ background: transparent url('../images/name.jpg') no-repeat center top;}
+.name-bg{ background: transparent url('../images/name.jpg') no-repeat center -100px; height: 300px;}
 
 .Europe-bg,
 .Asia-bg,
