@@ -275,7 +275,7 @@ div.flicking_con a.on{background-position:0 -21px}
 .small-notice2 .back{ float: right; color: #787878;}
 .Immediately{ margin-top: 60px;}
 .error,
-.form-small { color: #e70000; font-size: 12px; text-align: right; margin-top: 5px; display: block;}
+.form-small { color: #e70000; font-size: 12px; text-align: left; margin-top: 5px; display: block;}
 .form-small { color: #787878;}
 
 .icon-email {display: block; margin: 15px auto 20px; width: 60px; height: 30px; background: url('../images/dotted.png') no-repeat left -1370px;}
@@ -571,7 +571,16 @@ div.flicking_con a.on{background-position:0 -21px}
 .name-list tr td{ border-bottom: 2px solid #e3e3e3;}
 
 
+.pagination{ float: right; margin-bottom: 30px;}
+.pagination .disabled{ cursor: not-allowed;}
+.pagination a,
+.pagination{ color: #666666;}
 
+.pagination a,
+.pagination em,
+.pagination span{ display: block; float: left;margin-left: 5px; line-height: 24px; padding: 0 6px; font-size: 14px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+
+.pagination .current{ color: #fff; background-color: #e70000;}
 
 /* footer
 ========================================================================== */
