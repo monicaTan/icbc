@@ -6,7 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<!--#include file="inc/common.shtml"--> 
 	<style type="text/css">
-		html{background: url('images/bg2.jpg') no-repeat center top; background-size: auto 100%;}
+		html{background: url('images/bg2.jpg') repeat-y center top; background-size: auto 100%;}
+		.full,.body,.bg-page{ min-height: 100%; height: auto;}
 	</style>
 </head>
 <body>
