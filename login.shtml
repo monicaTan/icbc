@@ -14,7 +14,7 @@
 					<h3>登录即可上传攻略，赢大奖！</h3>
 					<div>
 						<div class="form-group">
-							<input type="text" placeholder="您的邮箱/手机号" />
+							<input type="email" placeholder="您的邮箱/手机号" />
 							<!-- <p class="error">请输入正确的邮箱格式</p> -->
 						</div>
 						<div class="form-group">
