@@ -15,8 +15,9 @@
 		<div class="head-regulation regulation0" title="爱晒，爱败，爱分享">
 			<div class="inner-module">
 				<h1>&nbsp;</h1>
-				<p>
-					<a href="edit.shtml">编辑攻略</a>
+				<p class="title-float clearfix">
+					<a class="left" href="edit.shtml">编辑攻略</a>
+					<a class="left" href="edit.shtml">上传图片</a>
 				</p>
 			</div>
 		</div>
