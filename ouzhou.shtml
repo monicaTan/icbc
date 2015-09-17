@@ -45,9 +45,11 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-img right">
-										<img src="images/face.jpg" width="40" height="40">
-										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									<div class="circle-imgbox right">
+										<div class="circle-img">
+											<img src="images/face.jpg" width="40" height="40">
+											<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+										</div>
 									</div>
 								</div>
 							</div>
@@ -71,9 +73,11 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-img right">
-										<img src="images/face.jpg" width="40" height="40">
-										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									<div class="circle-imgbox">
+										<div class="circle-img">
+											<img src="images/face.jpg" width="40" height="40">
+											<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+										</div>
 									</div>
 								</div>
 							</div>
@@ -96,9 +100,11 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-img right">
-										<img src="images/face.jpg" width="40" height="40">
-										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									<div class="circle-imgbox">
+										<div class="circle-img">
+											<img src="images/face.jpg" width="40" height="40">
+											<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+										</div>
 									</div>
 								</div>
 							</div>
@@ -121,9 +127,11 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-img right">
-										<img src="images/face.jpg" width="40" height="40">
-										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									<div class="circle-imgbox">
+										<div class="circle-img">
+											<img src="images/face.jpg" width="40" height="40">
+											<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+										</div>
 									</div>
 								</div>
 							</div>
@@ -146,9 +154,11 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-img right">
-										<img src="images/face.jpg" width="40" height="40">
-										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									<div class="circle-imgbox">
+										<div class="circle-img">
+											<img src="images/face.jpg" width="40" height="40">
+											<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+										</div>
 									</div>
 								</div>
 							</div>
@@ -171,9 +181,11 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-img right">
-										<img src="images/face.jpg" width="40" height="40">
-										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									<div class="circle-imgbox">
+										<div class="circle-img">
+											<img src="images/face.jpg" width="40" height="40">
+											<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+										</div>
 									</div>
 								</div>
 							</div>
@@ -205,7 +217,7 @@
 								<!-- 列表图片宽高限制： width="320" height="280" -->
 							</a>
 							<h4>
-								<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								法国巴黎 24小时 | 咖啡 生活 美食
 							</h4>
 						</li>
 						<!-- 结束 -->
@@ -216,7 +228,7 @@
 								<!-- 列表图片宽高限制： width="320" height="280" -->
 							</a>
 							<h4>
-								<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								法国巴黎 24小时 | 咖啡 生活 美食
 							</h4>
 						</li>
 						<!-- 开始 -->
@@ -226,7 +238,7 @@
 								<!-- 列表图片宽高限制： width="320" height="280" -->
 							</a>
 							<h4>
-								<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								法国巴黎 24小时 | 咖啡 生活 美食
 							</h4>
 						</li>
 					</ul>
