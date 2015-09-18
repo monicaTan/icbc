@@ -52,7 +52,7 @@ body{ line-height: 1;}
 .user-center ul .exit a:hover{background-position: 18px -585px;}
 
 .user-center ul .up-imgs a{background-position: 18px -670px;}
-.user-center ul .up-imgs a:hover{background-position: 18px -838px;}
+.user-center ul .up-imgs a:hover{background-position: 18px -754px;}
 
 .user-center ul .my-images a{background-position: 18px -835px;}
 .user-center ul .my-images a:hover{background-position: 18px -922px;}
@@ -634,4 +634,4 @@ label.error,
 .footer .inner-module p span{ font-size: 14px; color: #505050;*float: left;}
 .footer .inner-module p a:hover{color: #e70000;}
 .footer .inner-module p span{ padding: 0 15px;}
-.footer .inner-module p .right{ padding: 0 0 0 15px; float: right;}
+.footer .inner-module p .right{ padding: 0 0 0 15px; float: right; white-space: nowrap;}
