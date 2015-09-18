@@ -45,7 +45,7 @@
 											<span class="item-author">作者：苹果姐姐</span>
 										</div>
 									</div>
-									<div class="circle-imgbox right">
+									<div class="circle-imgbox">
 										<div class="circle-img">
 											<img src="images/face.jpg" width="40" height="40">
 											<img class="circle-mask" src="images/circle40.png" width="40" height="40">

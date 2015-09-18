@@ -52,6 +52,7 @@
 										  	</label>
 										</div>
 									</div>
+									<p class="required-select">至少选择一个板块</p>
 								</div>
 							</li>
 
@@ -98,6 +99,7 @@
 										</div>
 
 									</div>
+									<p class="required-select">必须上传一张封面图片</p>
 								</div>
 							</li>
 

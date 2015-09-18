@@ -51,6 +51,12 @@ body{ line-height: 1;}
 .user-center ul .exit a{background-position: 18px -500px;}
 .user-center ul .exit a:hover{background-position: 18px -585px;}
 
+.user-center ul .up-imgs a{background-position: 18px -670px;}
+.user-center ul .up-imgs a:hover{background-position: 18px -838px;}
+
+.user-center ul .my-images a{background-position: 18px -835px;}
+.user-center ul .my-images a:hover{background-position: 18px -922px;}
+
 /* banner
 ========================================================================== */
 .banner-module{padding-bottom:40px;}
@@ -284,7 +290,7 @@ span.error{ color: #e70000; font-size: 12px; text-align: right; margin-top: 5px;
 
 p.error,
 label.error,
-.form-small { color: #e70000; font-size: 12px; text-align: right; margin-top: 5px; display: block; float: right;}
+.form-small { color: #e70000; font-size: 12px; text-align: left; margin-top: 5px; display: block; width: 100%; float: right;}
 .form-small { color: #787878; white-space: nowrap;}
 
 .icon-email {display: block; margin: 15px auto 20px; width: 60px; height: 30px; background: url('../images/dotted.png') no-repeat left -1370px;}
@@ -323,12 +329,16 @@ label.error,
 .head-regulation .title-float a{ margin-right: 20px;}
 
 .form-row{ margin-bottom: 20px;}
-.form-row label{ width: 240px; line-height: 42px; font-size: 18px; float: left; text-align: right;}
+.form-row label{ width: 240px; line-height: 42px; font-size: 18px; float: left; text-align: left;}
+.form-row label.error{font-size: 16px; line-height: 20px;}
 .form-row label em{ font-style: normal; color: #e70000; font-size: 24px; vertical-align: middle; margin-right: 10px; line-height: 1;}
 .form-row input{ float: left; width: 615px; padding: 9px 10px; *padding: 10px 10px; border: 1px solid #ededed; background-color: #fff; font-size: 16px; color: #505050;}
 .form-title{ color: #505050; font-size: 28px; font-weight: normal; margin: 40px 0;}
 .form-row .btn-save{ width: 156px; font-size: 18px; background-color: #e70000; color: #fff; margin: 40px 0 80px 721px; padding: 8px 0; border:0; cursor: pointer;}
 .form-row .btn-right{ float: right;}
+.required-select{ font-size: 14px; color: #666; margin: 10px 0 0 34px; color: #e70000;}
+.edit-content2 .required-select{ margin-left: 0;}
+.bread-text{ margin: 20px; font-size: 16px;}
 
 /* my-travel
 ========================================================================== */
@@ -340,7 +350,7 @@ label.error,
 .tab_menu{overflow:hidden; margin: 40px 0;}
 .tab_menu li{ float:left; height:30px; padding: 0 45px; font-size: 28px; line-height:30px; color:#505050; text-align:center; cursor:pointer;}
 .tab_menu li.current{color:#e70000;}
-.tab_menu .line-right{ border-right: 1px solid #505050;}
+.tab_menu .line-right{ border-right: 1px solid #505050; padding-left: 0;}
 .tab_box .hide{display:none;}
 .tab_box .list-content li .img-content { width: 318px; height: 188px; border: 1px solid #f4f4f4;}
 
@@ -351,6 +361,7 @@ label.error,
 .tab_box .list-description h3 span{ display: block; width: 250px; float: right;}
 .tab_box .list-description h3 span a{ font-size: 16px; width: 64px; height: 30px; line-height: 30px; margin: 0; padding-left: 35px; float: left; background: url('../images/dotted.png') no-repeat 0 -1559px;}
 .tab_box .list-description h3 span .remove{ background-position: 0 -1770px; color: #e70000;}
+.tab_box .list-description h3 .caozuo .remove{ float: right;}
 
 .tab_box .list-description h3 span .edit{ padding-right: 20px;}
 .tab_box  .list-description .small-text span{ width: 95px; height: 24px; line-height: 24px;}
@@ -364,7 +375,7 @@ label.error,
 .tab_box  .list-description .small-text .icon-time2{ padding-right: 0; width: 200px;}
 .tab_box  .list-description .summary{ margin: 20px 0 20px; font-size: 15px; line-height: 30px; height: 90px;}
 .tab_box .tab-inner{ min-height: 400px; height:auto !important;}
-
+.tab_box .list-description .small-text .from{ float: right; text-align: right;}
 
 /* status
 ========================================================================== */
@@ -548,6 +559,7 @@ label.error,
 .topRec_List ul{ width:100%; height:195px;}
 .topRec_List li{ width:100%; height:30px; line-height:30px; text-align:center; font-size:12px; border-bottom: 1px dashed #f0f0f0;}
 .topRec_List li div{ float:left; width: 50%; text-align: left; font-size: 14px;}
+.name-notice{ line-height: 93px; height: 100%; font-size: 14px; text-align: center;}
 
 /* wenda
 ========================================================================== */
