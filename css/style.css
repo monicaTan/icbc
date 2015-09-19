@@ -505,9 +505,10 @@ label.error,
 .list-info .item-author{ width: 100%;}
 .circle-imgbox{ width: 40px; height: 40px; float: right; margin-top: 5px;}
 .circle-img,
-.circle-img img{ width: 40px; height: 40px;}
-.circle-img{ position: relative;}
-.circle-img .circle-mask{ position: absolute; left: 0; top: 0; z-index: 4;}
+.circle-img img{ width: 40px; height: 40px; line-height: 0; font-size: 0;}
+.circle-img img{ float: left;}
+
+.circle-img .circle-mask{ margin-top: -40px;}
 .list-info .icon-pepole{ padding-left: 28px; width: 52px; background: url('../images/icon_05.png') no-repeat left center;}
 .list-info .icon-heart{ padding-left: 19px; width: 61px; background: url('../images/heart.png') no-repeat left center;}
 
